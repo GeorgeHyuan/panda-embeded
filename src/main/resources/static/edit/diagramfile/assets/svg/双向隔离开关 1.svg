@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="51" viewBox="0 0 31 51">
+  <g id="组_54" data-name="组 54" transform="translate(-8.5 0.5)">
+    <line id="直线_23" data-name="直线 23" y2="17" transform="translate(24 33.5)" fill="none" stroke="#0393d6" stroke-width="1"/>
+    <line id="直线_24" data-name="直线 24" y2="17" transform="translate(24 9.5)" fill="none" stroke="#0393d6" stroke-width="1"/>
+    <line id="直线_11" data-name="直线 11" x1="8" transform="translate(8.5 13.5)" fill="none" stroke="#0393d6" stroke-width="1"/>
+    <line id="直线_21" data-name="直线 21" x1="8" transform="translate(31.5 13.5)" fill="none" stroke="#0393d6" stroke-width="1"/>
+    <line id="直线_10" data-name="直线 10" y2="14" transform="translate(12.5 -0.5)" fill="none" stroke="#0393d6" stroke-width="1"/>
+    <line id="直线_22" data-name="直线 22" y2="14" transform="translate(35.5 -0.5)" fill="none" stroke="#0393d6" stroke-width="1"/>
+    <g id="椭圆_8" data-name="椭圆 8" transform="translate(20 26)" fill="none" stroke="#0393d6" stroke-width="1">
+      <circle cx="4" cy="4" r="4" stroke="none"/>
+      <circle cx="4" cy="4" r="3.5" fill="none"/>
+    </g>
+  </g>
+</svg>

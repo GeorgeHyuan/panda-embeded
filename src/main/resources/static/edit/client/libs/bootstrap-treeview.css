@@ -1,0 +1,362 @@
+/* =========================================================
+ * bootstrap-treeview.css v1.2.0
+ * =========================================================
+ * Copyright 2013 Jonathan Miles 
+ * Project URL : http://www.jondmiles.com/bootstrap-treeview
+ *	
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * ========================================================= */
+li {
+  list-style: none;
+}
+
+.shadow-box {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.shadow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.shadow-bg {
+  width: 1000px;
+  height: 700px;
+  transform: translate(-50%, -50%);
+  min-width: 800px;
+  min-height: 700px;
+  position: absolute;
+  /* left: -500px; */
+  background: #fff;
+  /* top: -350px; */
+  border-radius: 4px;
+  overflow: hidden;
+  /* background: url(images/pic.png) no-repeat center; */
+}
+
+.ipt input {
+  border: 1px solid#ddd;
+  width: 27.3%;
+  padding: 0 5px;
+  line-height: 35px;
+  margin-right: 20px;
+  border-radius: 4px;
+}
+
+.ipt,
+.text {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+.ipt label {
+  font-weight: normal;
+  margin-right: 4px;
+}
+
+.content {
+  height: 100%;
+  padding: 20px;
+}
+
+.ColumnsBox {
+  height: 515px;
+  flex-direction: row;
+  display: flex;
+  line-height: center;
+  margin-bottom: 10px;
+}
+
+.Columns {
+  padding: 10px;
+  width: 100%;
+  flex-direction: row;
+  border-radius: 4px;
+  display: flex;
+  border: 1px solid #e3e3e3;
+}
+
+.Columns>li {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Columns li div {
+  flex: 1;
+  margin-top: 15px;
+  height: 100%;
+  border-radius: 4px;
+  border: 1px solid #e3e3e3;
+}
+
+.Columns li p {
+  font-size: 14px;
+  color: #333;
+  /* display: flex; */
+  margin: 0;
+}
+
+.Columns li p span {
+  width: 3px;
+  background: #2979c6;
+  display: block;
+  margin-top: 4px;
+  margin-right: 10px;
+  height: 70%;
+}
+
+.footer button {
+  float: right;
+  /* background: #b90b0ba9; */
+  line-height: 34px;
+  width: 80px;
+  color: #666666;
+  border-radius: 4px;
+  border: none;
+}
+
+#equipmentData {
+  overflow: auto;
+  font-size: 12px;
+  /* display: none; */
+  cursor: pointer;
+  color: #666666;
+}
+
+.moveIn {
+  color: #fff !important;
+  background: #45c4f9 !important;
+
+}
+
+dt {
+  font-weight: normal !important;
+}
+
+.p-style {
+  border-left: 3px solid #2979c6;
+  height: 15px;
+  line-height: 15px;
+  padding-left: 9px;
+}
+
+.treeview .list-group-item {
+  cursor: pointer;
+}
+
+.treeview span.indent {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.treeview span.icon {
+  width: 12px;
+  margin-right: 5px;
+}
+
+#equipmentData::-webkit-scrollbar,
+#siteTree::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/*滚动条滑块*/
+#equipmentData::-webkit-scrollbar-thumb,
+#siteTree::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: #ccc;
+}
+
+/*滚动条轨道*/
+#equipmentData::-webkit-scrollbar-track,
+#siteTree::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+}
+
+.treeview .node-disabled {
+  color: silver;
+  cursor: not-allowed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  moz-user-select: -moz-none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* shadow; */
+}
+
+.tab li.active {
+  color: #2979c6;
+  border-bottom: 2px solid #2979c6;
+}
+
+
+.tab {
+  margin: 0;
+  padding: 0;
+  padding-left: 5px;
+  font-size: 0;
+  overflow-x: auto;
+  white-space: nowrap;
+  height: 36px;
+  padding-top: 5px;
+}
+
+.tab li.tab-item {
+  cursor: pointer;
+  padding: 0 14px;
+  color: #333;
+  font-size: 14px;
+  display: inline-block;
+}
+
+/*清除浮动*/
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.siteName,
+.bdBox li {
+  /* background: #000; */
+  color: #000;
+  text-align: left;
+  font-weight: 800;
+  line-height: 34px;
+  padding-left: 20px;
+  border-bottom: 1px solid #ccc
+}
+
+.attribute {
+  /* border-bottom: 1px solid #ddd; */
+  line-height: 37px;
+  cursor: pointer;
+  /* border-radius: 4px; */
+  margin: 0 0;
+  width: 100%;
+  padding-left: 20px;
+}
+
+#attribute {
+  display: none
+}
+
+#attribute .active {
+  background: #45c4f9
+}
+
+.glyphicon-euro {
+  opacity: 0;
+}
+
+.node-icon {
+  margin-left: -4px;
+  margin-right: 8px;
+}
+
+.treebox {
+  height: 100%;
+  width: 33.3%;
+  float: left;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column
+}
+
+#siteTree ul li {
+  white-space: nowrap;
+  width: auto;
+  display: block !important;
+  border: none;
+}
+
+.node-selected,
+.selects,
+.attributeType {
+  background-color: #c0defc !important;
+  color: #2979c6 !important;
+}
+
+#siteTree ul li .icon {
+  color: #2979c6;
+}
+
+#siteTree ul {
+  min-width: 100%;
+  width: min-content
+}
+
+#siteTree {
+  overflow: auto;
+}
+
+.noData {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  line-height: 300px;
+}
+
+.dataDotStyle {
+  display: block;
+  line-height: 40px;
+  padding-left: 20px;
+}
+
+
+/* 修改组信息滚动条样式 */
+.tab::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/*滚动条滑块*/
+.tab::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: #ccc;
+}
+
+/*滚动条轨道*/
+.tab::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+}
+
+.spanStyleObj {
+  display: block;
+  line-height: 40px;
+  padding-left: 20px
+}

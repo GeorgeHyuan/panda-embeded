@@ -1,0 +1,86 @@
+{
+  "modified": "Fri Oct 11 2019 18:47:01 GMT+0800 (中国标准时间)",
+  "width": 34,
+  "height": 50,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 0.9901,
+      "borderColor": "#0393d6",
+      "pixelPerfect": true,
+      "points": [
+        17.97673,
+        0,
+        17.97673,
+        20.29703
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.9901,
+      "borderColor": "#0393d6",
+      "pixelPerfect": true,
+      "points": [
+        17.97673,
+        29.70297,
+        17.97673,
+        50
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.9901,
+      "borderColor": "#0393d6",
+      "pixelPerfect": true,
+      "points": [
+        28.86782,
+        29.20792,
+        6.09554,
+        29.20792
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.9901,
+      "borderColor": "#0393d6",
+      "pixelPerfect": true,
+      "points": [
+        28.86782,
+        20.29703,
+        6.09554,
+        20.29703
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.9901,
+      "borderColor": "#0393d6",
+      "pixelPerfect": true,
+      "points": [
+        9.20249,
+        49.42723,
+        24.80131,
+        6.28479
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#0393d6",
+      "pixelPerfect": true,
+      "points": [
+        26.33911,
+        1.57426,
+        26.08069,
+        8.77723,
+        22.31436,
+        7.55347
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        5
+      ]
+    }
+  ]
+}

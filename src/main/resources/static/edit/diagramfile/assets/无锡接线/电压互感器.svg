@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29">
+  <g id="组_152" data-name="组 152" transform="translate(594 -1106)">
+    <g id="组_141" data-name="组 141" transform="translate(-581 244)">
+      <line id="直线_155" data-name="直线 155" y1="5" transform="translate(1 868.5)" fill="none" stroke="red" stroke-width="1"/>
+      <line id="直线_156" data-name="直线 156" x1="3" y1="3" transform="translate(-2 866.5)" fill="none" stroke="red" stroke-width="1"/>
+      <line id="直线_157" data-name="直线 157" y1="3" x2="3" transform="translate(1 866.5)" fill="none" stroke="red" stroke-width="1"/>
+      <g id="椭圆_30" data-name="椭圆 30" transform="translate(-6 862)" fill="none" stroke="red" stroke-width="1">
+        <circle cx="7" cy="7" r="7" stroke="none"/>
+        <circle cx="7" cy="7" r="6.5" fill="none"/>
+      </g>
+    </g>
+    <g id="组_140" data-name="组 140" transform="translate(-588 251)">
+      <line id="直线_155-2" data-name="直线 155" y1="5" transform="translate(1 868.5)" fill="none" stroke="red" stroke-width="1"/>
+      <line id="直线_156-2" data-name="直线 156" x1="3" y1="3" transform="translate(-2 866.5)" fill="none" stroke="red" stroke-width="1"/>
+      <line id="直线_157-2" data-name="直线 157" y1="3" x2="3" transform="translate(1 866.5)" fill="none" stroke="red" stroke-width="1"/>
+      <g id="椭圆_30-2" data-name="椭圆 30" transform="translate(-6 862)" fill="none" stroke="red" stroke-width="1">
+        <circle cx="7" cy="7" r="7" stroke="none"/>
+        <circle cx="7" cy="7" r="6.5" fill="none"/>
+      </g>
+    </g>
+    <g id="组_142" data-name="组 142" transform="translate(-581 259)">
+      <line id="直线_155-3" data-name="直线 155" y1="5" transform="translate(1 868.5)" fill="none" stroke="red" stroke-width="1"/>
+      <line id="直线_156-3" data-name="直线 156" x1="3" y1="3" transform="translate(-2 866.5)" fill="none" stroke="red" stroke-width="1"/>
+      <line id="直线_157-3" data-name="直线 157" y1="3" x2="3" transform="translate(1 866.5)" fill="none" stroke="red" stroke-width="1"/>
+      <g id="椭圆_30-3" data-name="椭圆 30" transform="translate(-6 862)" fill="none" stroke="red" stroke-width="1">
+        <circle cx="7" cy="7" r="7" stroke="none"/>
+        <circle cx="7" cy="7" r="6.5" fill="none"/>
+      </g>
+    </g>
+    <g id="组_143" data-name="组 143" transform="translate(-574 251)">
+      <g id="椭圆_30-4" data-name="椭圆 30" transform="translate(-6 862)" fill="none" stroke="red" stroke-width="1">
+        <circle cx="7" cy="7" r="7" stroke="none"/>
+        <circle cx="7" cy="7" r="6.5" fill="none"/>
+      </g>
+      <g id="多边形_9" data-name="多边形 9" transform="translate(5 865) rotate(90)" fill="none">
+        <path d="M4,0,8,6H0Z" stroke="none"/>
+        <path d="M 3.999999761581421 1.802774906158447 L 1.868516445159912 5 L 6.13148307800293 5 L 3.999999761581421 1.802774906158447 M 3.999999761581421 0 L 8 6 L -4.76837158203125e-07 6 L 3.999999761581421 0 Z" stroke="none" fill="red"/>
+      </g>
+    </g>
+  </g>
+</svg>

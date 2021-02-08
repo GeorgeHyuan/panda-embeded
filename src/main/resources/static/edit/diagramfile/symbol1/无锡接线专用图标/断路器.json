@@ -1,0 +1,269 @@
+{
+  "modified": "Sun Nov 24 2019 15:29:30 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "switchState",
+      "valueType": "Number",
+      "defaultValue": 1,
+      "name": "遥信状态"
+    },
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(138,45,1)",
+      "name": "颜色"
+    },
+    {
+      "attr": "openColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(0,199,7)",
+      "name": "打开颜色"
+    },
+    {
+      "attr": "closeColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(212,0,0)",
+      "name": "关闭颜色"
+    }
+  ],
+  "width": 512,
+  "height": 130,
+  "comps": [
+    {
+      "type": "shape",
+      "background": {
+        "func": "attr@lineColor",
+        "value": "#8a2d02"
+      },
+      "pixelPerfect": true,
+      "points": [
+        147.73895,
+        22.52032,
+        147.73895,
+        35.994,
+        147.73895,
+        35.994,
+        147.73895,
+        35.994,
+        0,
+        35.994,
+        0,
+        35.994,
+        0,
+        35.994,
+        0,
+        22.52032,
+        0,
+        22.52032,
+        0,
+        22.52032,
+        147.73895,
+        22.52032,
+        147.73895,
+        22.52032,
+        147.73895,
+        22.52032
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": {
+        "func": "attr@lineColor",
+        "value": "#8a2d02"
+      },
+      "pixelPerfect": true,
+      "points": [
+        512,
+        22.52032,
+        512,
+        35.994,
+        512,
+        35.994,
+        512,
+        35.994,
+        282.94737,
+        35.994,
+        282.94737,
+        35.994,
+        282.94737,
+        35.994,
+        282.94737,
+        22.52032,
+        282.94737,
+        22.52032,
+        282.94737,
+        22.52032,
+        512,
+        22.52032,
+        512,
+        22.52032,
+        512,
+        22.52032
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": {
+        "func": "attr@lineColor",
+        "value": "#8a2d02"
+      },
+      "pixelPerfect": true,
+      "points": [
+        127.46552,
+        12.52733,
+        136.99286,
+        3,
+        136.99286,
+        3,
+        136.99286,
+        3,
+        179.86586,
+        45.873,
+        179.86586,
+        45.873,
+        179.86586,
+        45.873,
+        170.33852,
+        55.40033,
+        170.33852,
+        55.40033,
+        170.33852,
+        55.40033,
+        127.46552,
+        12.52733,
+        127.46552,
+        12.52733,
+        127.46552,
+        12.52733
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": {
+        "func": "attr@lineColor",
+        "value": "#8a2d02"
+      },
+      "pixelPerfect": true,
+      "points": [
+        170.32983,
+        3.05531,
+        179.85716,
+        12.58265,
+        179.85716,
+        12.58265,
+        179.85716,
+        12.58265,
+        136.98416,
+        55.45565,
+        136.98416,
+        55.45565,
+        136.98416,
+        55.45565,
+        127.45683,
+        45.92832,
+        127.45683,
+        45.92832,
+        127.45683,
+        45.92832,
+        170.32983,
+        3.05531,
+        170.32983,
+        3.05531,
+        170.32983,
+        3.05531
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": {
+        "func": "__ht__function(data, view) {\nvar openColor = data.getAttr('openColor')\r\nvar closeColor =  data.getAttr('closeColor')\r\nif (data.getAttr('switchState') === 0) { \r\n  return openColor\r\n} else if (data.getAttr('switchState') === 1) { \r\n  return closeColor\r\n}\n}",
+        "value": "#8a2d02"
+      },
+      "dashColor": {
+        "x": 282.7122,
+        "y": 28.2129
+      },
+      "pixelPerfect": true,
+      "anchorX": 0.91883,
+      "anchorY": 0.05414,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * 0\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 31\r\n}\n}",
+        "value": 0
+      },
+      "points": [
+        282.45479,
+        22.66519,
+        291.02939,
+        31.23979,
+        291.02939,
+        31.23979,
+        250.68668,
+        71.5825,
+        197.13752,
+        125.13166,
+        197.13752,
+        125.13166,
+        188.56292,
+        116.55706,
+        188.56292,
+        116.55706,
+        239.08338,
+        66.0366,
+        282.45479,
+        22.66519,
+        282.45479,
+        22.66519,
+        282.45479,
+        22.66519
+      ]
+    }
+  ]
+}

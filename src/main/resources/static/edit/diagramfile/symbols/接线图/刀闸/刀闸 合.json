@@ -1,0 +1,66 @@
+{
+  "modified": "Wed Dec 04 2019 22:34:55 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "name": "颜色"
+    },
+    {
+      "attr": "switchState",
+      "valueType": "Number",
+      "name": "遥信状态"
+    }
+  ],
+  "width": 15,
+  "height": 50,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 0.94047,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(212,0,0)"
+      },
+      "dashColor": "rgb(212,0,0)",
+      "pixelPerfect": true,
+      "points": [
+        13,
+        20.76789,
+        3.59532,
+        20.76789
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.94047,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(212,0,0)"
+      },
+      "pixelPerfect": true,
+      "points": [
+        8.29766,
+        1.48829,
+        8.29766,
+        21.23813
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.94047,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(212,0,0)"
+      },
+      "dashColor": "attr@lineColor",
+      "pixelPerfect": true,
+      "points": [
+        8.29766,
+        47.97376,
+        8.29766,
+        20.46358
+      ]
+    }
+  ]
+}

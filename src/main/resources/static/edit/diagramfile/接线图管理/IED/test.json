@@ -1,0 +1,59 @@
+{
+  "v": "7.0.2",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null,
+    "uuid": "4577956215768064",
+    "spaceUuid": "4576550015386624",
+    "diagramType": 0
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 364,
+      "p": {
+        "displayName": "变压器1",
+        "image": "symbols/环境设备/变压器1.json",
+        "position": {
+          "x": 274,
+          "y": 262
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 610,
+      "p": {
+        "displayName": "变压器1",
+        "image": "symbols/环境设备/变压器1.json",
+        "position": {
+          "x": 353,
+          "y": 516
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 989,
+      "p": {
+        "displayName": "测试图标",
+        "image": "symbols/环境设备/测试图标.json",
+        "position": {
+          "x": 113,
+          "y": 520
+        }
+      }
+    }
+  ],
+  "modified": "Thu Sep 19 2019 15:28:26 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 63,
+    "y": 143,
+    "width": 441.5,
+    "height": 492
+  }
+}

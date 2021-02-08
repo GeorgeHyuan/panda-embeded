@@ -1,0 +1,371 @@
+{
+  "modified": "Thu Oct 24 2019 14:09:03 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "name": "颜色"
+    },
+    {
+      "attr": "switchState",
+      "valueType": "Number",
+      "name": "遥信状态"
+    }
+  ],
+  "width": 14,
+  "height": 65,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 0.97684,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": {
+        "x": 8.86873,
+        "y": 7.89381
+      },
+      "pixelPerfect": true,
+      "points": [
+        8.86873,
+        12.47488,
+        8.86873,
+        19.31273
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.97684,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        14,
+        19.81273,
+        4.23165,
+        19.81273
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.97684,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": true,
+      "pixelPerfect": true,
+      "points": [
+        11.55791,
+        23.23165,
+        11.55791,
+        21.89196,
+        10.45551,
+        20.78956,
+        9.11582,
+        20.78956,
+        7.77614,
+        20.78956,
+        6.67374,
+        21.89196,
+        6.67374,
+        23.23165,
+        6.67374,
+        24.57134,
+        7.77614,
+        25.67374,
+        9.11582,
+        25.67374,
+        10.45551,
+        25.67374,
+        11.55791,
+        24.57134,
+        11.55791,
+        23.23165
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.97684,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        9.11582,
+        52.0307,
+        9.11582,
+        52.69593,
+        9.05721,
+        30.5667
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.97684,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": 0,
+      "pixelPerfect": true,
+      "anchorX": 1,
+      "anchorY": 1,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * 0\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 24\r\n} else if ((data.getAttr('switchState') === 2)){\r\n    return Math.PI / 180 * 0\r\n}\n}",
+        "value": 0
+      },
+      "points": [
+        9.11582,
+        30.55791,
+        6.14715,
+        27.91909,
+        0.32431,
+        22.74323
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(2,149,214)"
+      },
+      "dashColor": true,
+      "anchorX": 1,
+      "anchorY": 0.05039,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * (-6)\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * (-6)\r\n} else if ((data.getAttr('switchState') === 2)){\r\n    return Math.PI / 180 * 90\r\n}\n}",
+        "value": -0.10472
+      },
+      "points": [
+        9.10065,
+        11.73157,
+        7.16093,
+        13.6713,
+        3.71068,
+        17.12154
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(2,149,214)"
+      },
+      "dashColor": true,
+      "anchorX": 1,
+      "anchorY": 0.02584,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * (-88)\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * (-88)\r\n} else if ((data.getAttr('switchState') === 2)){\r\n    return Math.PI / 180 * (-186)\r\n}\n}",
+        "value": -1.53589
+      },
+      "points": [
+        8.69602,
+        11.59865,
+        6.7563,
+        13.53837,
+        4.56207,
+        15.7326,
+        3.30605,
+        16.98862
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(2,149,214)"
+      },
+      "dashColor": true,
+      "anchorX": 0.93737,
+      "anchorY": 0.06712,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * (-6)\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * (-6)\r\n} else if ((data.getAttr('switchState') === 2)){\r\n    return Math.PI / 180 * 90\r\n}\n}",
+        "value": -0.10472
+      },
+      "points": [
+        9.11192,
+        8.76636,
+        7.1722,
+        10.70609,
+        3.72195,
+        14.15633
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(2,149,214)"
+      },
+      "dashColor": true,
+      "anchorX": 0.94462,
+      "anchorY": 0.0436,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * (-88)\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * (-88)\r\n} else if ((data.getAttr('switchState') === 2)){\r\n    return Math.PI / 180 * (-186)\r\n}\n}",
+        "value": -1.53589
+      },
+      "points": [
+        9.07978,
+        8.80454,
+        7.14006,
+        10.74426,
+        3.68981,
+        14.19451
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(2,149,214)"
+      },
+      "dashColor": true,
+      "anchorX": 0.93737,
+      "anchorY": 0.06712,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * 173\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 173\r\n} else if ((data.getAttr('switchState') === 2)){\r\n    return Math.PI / 180 * 274\r\n}\n}",
+        "value": 3.01942
+      },
+      "points": [
+        9.50671,
+        53.15573,
+        7.56699,
+        55.09546,
+        4.11674,
+        58.5457
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(2,149,214)"
+      },
+      "dashColor": {
+        "x": 11.69602,
+        "y": 28.73792
+      },
+      "anchorX": 1,
+      "anchorY": 0.02584,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * 91\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 91\r\n} else if ((data.getAttr('switchState') === 2)){\r\n    return Math.PI / 180 * (-2)\r\n}\n}",
+        "value": 1.58825
+      },
+      "points": [
+        9.24746,
+        53.76844,
+        7.30774,
+        55.70816,
+        3.85749,
+        59.15841
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(2,149,214)"
+      },
+      "dashColor": true,
+      "anchorX": 0.93737,
+      "anchorY": 0.06712,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * 173\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 173\r\n} else if ((data.getAttr('switchState') === 2)){\r\n    return Math.PI / 180 * 274\r\n}\n}",
+        "value": 3.01942
+      },
+      "points": [
+        9.47741,
+        56.29218,
+        7.53769,
+        58.23191,
+        4.08744,
+        61.68215
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(2,149,214)"
+      },
+      "dashColor": {
+        "x": 11.69602,
+        "y": 28.73792
+      },
+      "anchorX": 1,
+      "anchorY": 0.02584,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * 91\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 91\r\n} else if ((data.getAttr('switchState') === 2)){\r\n    return Math.PI / 180 * (-2)\r\n}\n}",
+        "value": 1.58825
+      },
+      "points": [
+        9.21816,
+        56.90488,
+        7.27844,
+        58.8446,
+        3.82819,
+        62.29485
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nvar color = data.getAttr('lineColor')\r\nconsole.log(color)\r\nif (data.getAttr('switchState') === 0) {\r\n    return 'rgba(0,0,0,0)'\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return 'rgba(0,0,0,0)'\r\n} else if (data.getAttr('switchState') === 2) {\r\n    return color\r\n}\n}",
+        "value": "rgba(0,0,0,0)"
+      },
+      "dashColor": true,
+      "anchorX": 0.93737,
+      "anchorY": 0.06712,
+      "rotation": 5.41276,
+      "points": [
+        8.98209,
+        8.80439,
+        8.02427,
+        9.65732,
+        6.32057,
+        11.17444
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nvar color = data.getAttr('lineColor')\r\nconsole.log(color)\r\nif (data.getAttr('switchState') === 0) {\r\n    return 'rgba(0,0,0,0)'\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return 'rgba(0,0,0,0)'\r\n} else if (data.getAttr('switchState') === 2) {\r\n    return color\r\n}\n}",
+        "value": "rgba(0,0,0,0)"
+      },
+      "dashColor": true,
+      "anchorX": 0.93737,
+      "anchorY": 0.06712,
+      "rotation": 5.41276,
+      "points": [
+        9.219,
+        53.17286,
+        8.26119,
+        54.02579,
+        6.55748,
+        55.54291
+      ]
+    }
+  ]
+}

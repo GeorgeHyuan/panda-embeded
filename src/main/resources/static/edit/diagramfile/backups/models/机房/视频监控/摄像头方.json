@@ -1,0 +1,20 @@
+{
+  "modelType": "obj",
+  "obj": "assets/objs/机房/视频监控/摄像头方.obj",
+  "mtl": "assets/objs/机房/视频监控/摄像头方.mtl",
+  "image": "symbols/机房/摄像头方.json",
+  "prefix": "",
+  "center": false,
+  "ignoreImage": false,
+  "ignoreColor": false,
+  "s3": [
+    1,
+    1,
+    1
+  ],
+  "r3": [
+    0,
+    0,
+    0
+  ]
+}

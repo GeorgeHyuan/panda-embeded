@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8.884" height="25.5" viewBox="0 0 8.884 25.5">
+  <g id="组_157" data-name="组 157" transform="translate(-204.116 -758.5)">
+    <line id="直线_506" data-name="直线 506" x1="4" transform="translate(207.5 781.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <line id="直线_505" data-name="直线 505" x1="7" transform="translate(206 779.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <line id="直线_507" data-name="直线 507" x1="2" transform="translate(208.5 783.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <line id="直线_510" data-name="直线 510" y2="9" transform="translate(209.5 758.5)" fill="none" stroke="red" stroke-width="1"/>
+    <line id="直线_508" data-name="直线 508" y2="5" transform="translate(209.5 774.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <path id="路径_118" data-name="路径 118" d="M0,0,3.75,4.5,5,6" transform="translate(204.5 768.5)" fill="none" stroke="red" stroke-width="1"/>
+  </g>
+</svg>

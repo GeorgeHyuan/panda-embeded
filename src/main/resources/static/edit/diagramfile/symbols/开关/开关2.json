@@ -1,0 +1,55 @@
+{
+  "modified": "Fri Dec 06 2019 13:59:23 GMT+0800 (中国标准时间)",
+  "onClick": "__ht__function(event, data, view, point, width, height) {\nconsole.log(data, '打印数据>>>>')\n}",
+  "width": 50,
+  "height": 50,
+  "interactive": true,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "#00c105",
+      "dashColor": {
+        "x": 50,
+        "y": 50
+      },
+      "pixelPerfect": true,
+      "onClick": "__ht__function(event, data, view, point, width, height) {\nconsole.log(event, '点击圆圈时的事件')\n}",
+      "points": [
+        50,
+        25,
+        50,
+        11.2854,
+        38.7146,
+        0,
+        25,
+        0,
+        11.2854,
+        0,
+        0,
+        11.2854,
+        0,
+        25,
+        0,
+        38.7146,
+        11.2854,
+        50,
+        25,
+        50,
+        38.7146,
+        50,
+        50,
+        38.7146,
+        50,
+        25
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        4,
+        4,
+        5
+      ]
+    }
+  ]
+}

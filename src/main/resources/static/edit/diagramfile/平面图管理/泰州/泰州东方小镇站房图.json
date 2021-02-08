@@ -1,0 +1,1565 @@
+{
+  "v": "7.0.2",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null,
+    "spaceUuid": "4588230652822528",
+    "uuid": "4593856264193024",
+    "diagramType": 0
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 850,
+      "p": {
+        "displayName": "图框5",
+        "image": "symbols/环境设备/图框5.json",
+        "position": {
+          "x": -7.21137,
+          "y": 21.88277
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 851,
+      "p": {
+        "displayName": "图框5",
+        "image": "symbols/环境设备/图框5.json",
+        "position": {
+          "x": -7.64222,
+          "y": 221.24645
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 852,
+      "p": {
+        "displayName": "图框5",
+        "image": "symbols/环境设备/图框5.json",
+        "position": {
+          "x": -7.06287,
+          "y": 420.49649
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 853,
+      "p": {
+        "displayName": "图框5",
+        "image": "symbols/环境设备/图框5.json",
+        "position": {
+          "x": -7.91993,
+          "y": 620.20471
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 854,
+      "p": {
+        "displayName": "图框5",
+        "image": "symbols/环境设备/图框5.json",
+        "position": {
+          "x": -7.68565,
+          "y": 819.82157
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 855,
+      "p": {
+        "displayName": "图框5",
+        "image": "symbols/环境设备/图框5.json",
+        "position": {
+          "x": -7.9828,
+          "y": 1019.98707
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 856,
+      "p": {
+        "displayName": "图框5",
+        "image": "symbols/环境设备/图框5.json",
+        "position": {
+          "x": -7.9828,
+          "y": 1220.33017
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 857,
+      "p": {
+        "displayName": "图框5",
+        "image": "symbols/环境设备/图框5.json",
+        "position": {
+          "x": -7.9828,
+          "y": 1420.93526
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 858,
+      "p": {
+        "displayName": "图框5",
+        "image": "symbols/环境设备/图框5.json",
+        "position": {
+          "x": -7.06287,
+          "y": 1621.24145
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 859,
+      "p": {
+        "displayName": "图框5",
+        "image": "symbols/环境设备/图框5.json",
+        "position": {
+          "x": -7.9828,
+          "y": 1822.24145
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 860,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 794.97686,
+          "y": -63.40306
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 861,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 1142.97686,
+          "y": -63.40306
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 862,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 969.97686,
+          "y": -62.40306
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 863,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 1313.97686,
+          "y": -64.40306
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 864,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 1485.97686,
+          "y": -63.40306
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 865,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 1659.97686,
+          "y": -63.40306
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 866,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 1831.97686,
+          "y": -63.40306
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 867,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 2006.97686,
+          "y": -61.40306
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 868,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 2181.97686,
+          "y": -59.40306
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 869,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 2354.97686,
+          "y": -59.40306
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 870,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 2527.97686,
+          "y": -58.40306
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 871,
+      "p": {
+        "displayName": "变压器1",
+        "image": "symbols/环境设备/变压器1.json",
+        "position": {
+          "x": 888.97686,
+          "y": 819.82157
+        },
+        "width": 450,
+        "height": 450
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 872,
+      "p": {
+        "displayName": "变压器1",
+        "image": "symbols/环境设备/变压器1.json",
+        "position": {
+          "x": 1438.97686,
+          "y": 819.82157
+        },
+        "width": 450,
+        "height": 450
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 873,
+      "p": {
+        "displayName": "变压器1",
+        "image": "symbols/环境设备/变压器1.json",
+        "position": {
+          "x": 1984.97686,
+          "y": 819.82157
+        },
+        "width": 450,
+        "height": 450
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 874,
+      "p": {
+        "displayName": "变压器1",
+        "image": "symbols/环境设备/变压器1.json",
+        "position": {
+          "x": 2517.47077,
+          "y": 826.33017
+        },
+        "width": 450,
+        "height": 450
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 875,
+      "p": {
+        "position": {
+          "x": 860.58813,
+          "y": 876.43588
+        }
+      },
+      "s": {
+        "text": "3号主变",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "40px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 876,
+      "p": {
+        "position": {
+          "x": 1421.77308,
+          "y": 883.28304
+        }
+      },
+      "s": {
+        "text": "2号主变",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "40px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 877,
+      "p": {
+        "position": {
+          "x": 1968.26312,
+          "y": 887.97735
+        }
+      },
+      "s": {
+        "text": "4号主变",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "40px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 878,
+      "p": {
+        "position": {
+          "x": 2496.47077,
+          "y": 876.43588
+        }
+      },
+      "s": {
+        "text": "1号主变",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "40px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 879,
+      "p": {
+        "position": {
+          "x": -7.06287,
+          "y": 77.24645
+        }
+      },
+      "s": {
+        "text": "5015",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 880,
+      "p": {
+        "position": {
+          "x": 9.96864,
+          "y": 276.49649
+        }
+      },
+      "s": {
+        "text": "S04",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 881,
+      "p": {
+        "position": {
+          "x": 9.96864,
+          "y": 476.20471
+        }
+      },
+      "s": {
+        "text": "503",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 882,
+      "p": {
+        "position": {
+          "x": 9.96864,
+          "y": 675.82157
+        }
+      },
+      "s": {
+        "text": "501",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 883,
+      "p": {
+        "position": {
+          "x": 9.96864,
+          "y": 876.43588
+        }
+      },
+      "s": {
+        "text": "510",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 884,
+      "p": {
+        "position": {
+          "x": 9.96864,
+          "y": 1076.33017
+        }
+      },
+      "s": {
+        "text": "520",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 885,
+      "p": {
+        "position": {
+          "x": 9.96864,
+          "y": 1276.93526
+        }
+      },
+      "s": {
+        "text": "502",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 886,
+      "p": {
+        "position": {
+          "x": 9.96864,
+          "y": 1480.9969
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.57511
+        }
+      },
+      "s": {
+        "text": "504",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 887,
+      "p": {
+        "position": {
+          "x": 9.96864,
+          "y": 1678.24145
+        }
+      },
+      "s": {
+        "text": "S03",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 888,
+      "p": {
+        "position": {
+          "x": -5.63317,
+          "y": 1873.96843
+        }
+      },
+      "s": {
+        "text": "5025",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 889,
+      "p": {
+        "position": {
+          "x": 797.67648,
+          "y": -2.51633
+        }
+      },
+      "s": {
+        "text": "DP-11",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 890,
+      "p": {
+        "position": {
+          "x": 969.97686,
+          "y": -3.11723
+        }
+      },
+      "s": {
+        "text": "DP-10",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 891,
+      "p": {
+        "position": {
+          "x": 1145.97686,
+          "y": -3.11723
+        }
+      },
+      "s": {
+        "text": "DP-09",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 892,
+      "p": {
+        "position": {
+          "x": 1318.97686,
+          "y": -3.11723
+        }
+      },
+      "s": {
+        "text": "DP-08",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 893,
+      "p": {
+        "position": {
+          "x": 1482.97686,
+          "y": -2.11723
+        }
+      },
+      "s": {
+        "text": "DP-07",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 894,
+      "p": {
+        "position": {
+          "x": 1656.97686,
+          "y": -3.11723
+        }
+      },
+      "s": {
+        "text": "DP-06",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 895,
+      "p": {
+        "position": {
+          "x": 1835.97686,
+          "y": -2.11723
+        }
+      },
+      "s": {
+        "text": "DP-05",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 896,
+      "p": {
+        "position": {
+          "x": 2011.97686,
+          "y": -2.11723
+        }
+      },
+      "s": {
+        "text": "DP-04",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 897,
+      "p": {
+        "position": {
+          "x": 2186.97686,
+          "y": -2.11723
+        }
+      },
+      "s": {
+        "text": "DP-03",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 898,
+      "p": {
+        "position": {
+          "x": 2358.97686,
+          "y": -2.11723
+        }
+      },
+      "s": {
+        "text": "DP-02",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 899,
+      "p": {
+        "position": {
+          "x": 2528.97686,
+          "y": -2.11723
+        }
+      },
+      "s": {
+        "text": "DP-01",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 900,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 797.47686,
+          "y": 1939.24145
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 901,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 1145.47686,
+          "y": 1939.24145
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 902,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 972.47686,
+          "y": 1940.24145
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 903,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 1316.47686,
+          "y": 1938.24145
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 904,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 1488.47686,
+          "y": 1939.24145
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 905,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 1662.47686,
+          "y": 1939.24145
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 906,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 1834.47686,
+          "y": 1939.24145
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 907,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 2009.47686,
+          "y": 1941.24145
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 908,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 2184.47686,
+          "y": 1943.24145
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 909,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 2357.47686,
+          "y": 1943.24145
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 910,
+      "p": {
+        "displayName": "图框6",
+        "image": "symbols/环境设备/图框6.json",
+        "position": {
+          "x": 2530.47686,
+          "y": 1944.24145
+        },
+        "width": 200,
+        "height": 250
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 911,
+      "p": {
+        "position": {
+          "x": 796.58813,
+          "y": 1999.66852
+        }
+      },
+      "s": {
+        "text": "DP-12",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 912,
+      "p": {
+        "position": {
+          "x": 973.58813,
+          "y": 1999.66852
+        }
+      },
+      "s": {
+        "text": "DP-12",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 913,
+      "p": {
+        "position": {
+          "x": 1146.58813,
+          "y": 1999.66852
+        }
+      },
+      "s": {
+        "text": "DP-13",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 914,
+      "p": {
+        "position": {
+          "x": 1315.58813,
+          "y": 1998.66852
+        }
+      },
+      "s": {
+        "text": "DP-14",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 915,
+      "p": {
+        "position": {
+          "x": 1488.58813,
+          "y": 1998.66852
+        }
+      },
+      "s": {
+        "text": "DP-15",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 916,
+      "p": {
+        "position": {
+          "x": 1666.58813,
+          "y": 1999.66852
+        }
+      },
+      "s": {
+        "text": "DP-16",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 917,
+      "p": {
+        "position": {
+          "x": 1837.58813,
+          "y": 1998.66852
+        }
+      },
+      "s": {
+        "text": "DP-17",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 918,
+      "p": {
+        "position": {
+          "x": 2012.58813,
+          "y": 1998.66852
+        }
+      },
+      "s": {
+        "text": "DP-18",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 919,
+      "p": {
+        "position": {
+          "x": 2185.58813,
+          "y": 1999.66852
+        }
+      },
+      "s": {
+        "text": "DP-19",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 920,
+      "p": {
+        "position": {
+          "x": 2359.58813,
+          "y": 1998.66852
+        }
+      },
+      "s": {
+        "text": "DP-20",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 921,
+      "p": {
+        "position": {
+          "x": 2534.58813,
+          "y": 1998.66852
+        }
+      },
+      "s": {
+        "text": "DP-21",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 922,
+      "p": {
+        "displayName": "烟感",
+        "image": "symbols/环境设备/烟感.json",
+        "position": {
+          "x": 1163.97686,
+          "y": 1351.93526
+        },
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 923,
+      "p": {
+        "displayName": "烟感",
+        "image": "symbols/环境设备/烟感.json",
+        "position": {
+          "x": 1956.97686,
+          "y": 1351.93526
+        },
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 924,
+      "p": {
+        "position": {
+          "x": 1182.00532,
+          "y": 1420.93526
+        }
+      },
+      "s": {
+        "text": "烟感",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 925,
+      "p": {
+        "position": {
+          "x": 1969.77214,
+          "y": 1422.57495
+        },
+        "anchor": {
+          "x": 0.45509,
+          "y": 0.53279
+        }
+      },
+      "s": {
+        "text": "烟感",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 926,
+      "p": {
+        "displayName": "球机",
+        "image": "symbols/环境设备/球机.json",
+        "position": {
+          "x": 388.39547,
+          "y": 2105.21395
+        },
+        "anchor": {
+          "x": 0.5836,
+          "y": 0.42517
+        },
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 927,
+      "p": {
+        "displayName": "水浸",
+        "image": "symbols/环境设备/水浸.json",
+        "position": {
+          "x": 226.00502,
+          "y": 2119.24145
+        },
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 928,
+      "p": {
+        "position": {
+          "x": 240.43529,
+          "y": 2187.69694
+        }
+      },
+      "s": {
+        "text": "水浸",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 929,
+      "p": {
+        "position": {
+          "x": 398.43529,
+          "y": 2187.69694
+        }
+      },
+      "s": {
+        "text": "球机",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 930,
+      "p": {
+        "displayName": "温湿度",
+        "image": "symbols/环境设备/温湿度.json",
+        "position": {
+          "x": 1610.34898,
+          "y": 2118.24145
+        },
+        "anchor": {
+          "x": 0.53372,
+          "y": 0.5
+        },
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 931,
+      "p": {
+        "position": {
+          "x": 1612.47686,
+          "y": 2187.69694
+        }
+      },
+      "s": {
+        "text": "温湿度",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 932,
+      "p": {
+        "displayName": "水浸",
+        "image": "symbols/环境设备/水浸.json",
+        "position": {
+          "x": 2787.39761,
+          "y": -279.8218
+        },
+        "anchor": {
+          "x": 0.44927,
+          "y": 0.41581
+        },
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 933,
+      "p": {
+        "displayName": "立式空调",
+        "image": "symbols/环境设备/立式空调.json",
+        "position": {
+          "x": 2927.97403,
+          "y": -281.40306
+        },
+        "width": 96,
+        "height": 80
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 934,
+      "p": {
+        "position": {
+          "x": 2804.47077,
+          "y": -196
+        }
+      },
+      "s": {
+        "text": "水浸",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 935,
+      "p": {
+        "position": {
+          "x": 2925.97403,
+          "y": -214.40306
+        }
+      },
+      "s": {
+        "text": "立式空调",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 936,
+      "p": {
+        "position": {
+          "x": -249.94454,
+          "y": -171.40306
+        }
+      },
+      "s": {
+        "text": "枪型摄像头",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 937,
+      "p": {
+        "displayName": "蓄电池",
+        "image": "symbols/环境设备/蓄电池.json",
+        "position": {
+          "x": 59.96864,
+          "y": -127.40306
+        }
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 938,
+      "p": {
+        "position": {
+          "x": 65.06313,
+          "y": -130.12626
+        }
+      },
+      "s": {
+        "text": "蓄电池",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 939,
+      "p": {
+        "displayName": "图框1",
+        "image": "symbols/环境设备/图框1.json",
+        "position": {
+          "x": 603.44343,
+          "y": -25.10624
+        }
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 940,
+      "p": {
+        "position": {
+          "x": 619.97686,
+          "y": -28.11723
+        }
+      },
+      "s": {
+        "text": "TTU",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 941,
+      "p": {
+        "displayName": "立式空调",
+        "image": "symbols/环境设备/立式空调.json",
+        "position": {
+          "x": 44.36683,
+          "y": -288.40306
+        },
+        "width": 96,
+        "height": 84
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 942,
+      "p": {
+        "displayName": "SF6",
+        "image": "symbols/环境设备/SF6.json",
+        "position": {
+          "x": 144.43713,
+          "y": -300
+        },
+        "width": 100,
+        "height": 80
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 943,
+      "p": {
+        "displayName": "新摄像头1",
+        "image": "symbols/环境设备/新摄像头1.json",
+        "position": {
+          "x": 3228.88101,
+          "y": 416.65124
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.46155
+        },
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 944,
+      "p": {
+        "displayName": "新摄像头1",
+        "image": "symbols/环境设备/新摄像头1.json",
+        "position": {
+          "x": 3233.88101,
+          "y": 1385.65124
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.46155
+        },
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 945,
+      "p": {
+        "position": {
+          "x": 3228.88101,
+          "y": 501.20471
+        }
+      },
+      "s": {
+        "text": "枪型摄像头",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 946,
+      "p": {
+        "position": {
+          "x": 3228.88101,
+          "y": 1464.49649
+        }
+      },
+      "s": {
+        "text": "枪型摄像头",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 947,
+      "p": {
+        "position": {
+          "x": 167.00502,
+          "y": -303.40306
+        }
+      },
+      "s": {
+        "text": "SF6",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 948,
+      "p": {
+        "displayName": "SF6",
+        "image": "symbols/环境设备/SF6.json",
+        "position": {
+          "x": 503.44343,
+          "y": 2118.24145
+        },
+        "width": 100,
+        "height": 80
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 949,
+      "p": {
+        "position": {
+          "x": 524.97686,
+          "y": 2119.24145
+        }
+      },
+      "s": {
+        "text": "SF6",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 950,
+      "p": {
+        "displayName": "温湿度",
+        "image": "symbols/环境设备/温湿度.json",
+        "position": {
+          "x": 1609.97686,
+          "y": -280.83022
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.4417
+        },
+        "width": 100,
+        "height": 100
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 951,
+      "p": {
+        "position": {
+          "x": 1607.67821,
+          "y": -205.30956
+        }
+      },
+      "s": {
+        "text": "温湿度",
+        "text.color": "rgb(51,153,255)",
+        "text.font": "31px sans-serif, Arial"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 952,
+      "p": {
+        "displayName": "墙体",
+        "image": "symbols/环境设备/墙体.json",
+        "position": {
+          "x": 1395.22054,
+          "y": 973.58171
+        },
+        "width": 4200,
+        "height": 3000
+      },
+      "s": {
+        "shape.foreground.gradient.color": "rgb(61,61,61)"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 953,
+      "p": {
+        "displayName": "未命名",
+        "image": "symbols/环境设备/未命名.json",
+        "position": {
+          "x": 3460.0434,
+          "y": -128.40306
+        },
+        "width": 300,
+        "height": 300
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 954,
+      "p": {
+        "displayName": "门",
+        "image": "symbols/环境设备/门.json",
+        "position": {
+          "x": -446.94454,
+          "y": 2008.24145
+        },
+        "width": 300,
+        "height": 300
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 955,
+      "p": {
+        "displayName": "新摄像头",
+        "image": "symbols/环境设备/新摄像头.json",
+        "position": {
+          "x": -226.72955,
+          "y": -254.59038
+        }
+      }
+    }
+  ],
+  "modified": "Mon Sep 23 2019 15:38:55 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -704.77946,
+    "y": -526.41829,
+    "width": 4314.82286,
+    "height": 3000
+  }
+}

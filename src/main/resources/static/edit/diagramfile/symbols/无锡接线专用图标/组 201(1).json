@@ -1,0 +1,149 @@
+{
+  "modified": "Thu Dec 12 2019 14:19:44 GMT+0800 (中国标准时间)",
+  "width": 10,
+  "height": 71,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 0.91158,
+      "borderColor": "#000000",
+      "pixelPerfect": true,
+      "points": [
+        5.34184,
+        59.4289,
+        5.34184,
+        63.98678
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.91158,
+      "borderColor": "#000000",
+      "pixelPerfect": true,
+      "points": [
+        5.34184,
+        20.23108,
+        5.34184,
+        48.48997
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.91158,
+      "borderColor": "#000000",
+      "pixelPerfect": true,
+      "points": [
+        5.34184,
+        2.91112,
+        5.34184,
+        14.76162
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.91158,
+      "borderColor": "#000000",
+      "pixelPerfect": true,
+      "points": [
+        7.165,
+        65.80994,
+        3.51869,
+        65.80994
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.91158,
+      "borderColor": "#000000",
+      "pixelPerfect": true,
+      "points": [
+        8.53236,
+        63.98678,
+        2.15132,
+        63.98678
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.91158,
+      "borderColor": "#000000",
+      "pixelPerfect": true,
+      "points": [
+        6.25342,
+        67.63309,
+        4.43026,
+        67.63309
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.91169,
+      "borderColor": "#000000",
+      "pixelPerfect": true,
+      "points": [
+        0.39289,
+        17.76345,
+        9.60552,
+        12.44644
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.91169,
+      "borderColor": "#000000",
+      "pixelPerfect": true,
+      "points": [
+        0.39289,
+        56.04968,
+        9.60552,
+        50.73268
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.91158,
+      "borderColor": "#000000",
+      "pixelPerfect": true,
+      "points": [
+        2.60711,
+        48.48997,
+        8.07657,
+        48.48997,
+        8.07657,
+        48.48997,
+        8.07657,
+        48.48997,
+        8.07657,
+        59.4289,
+        8.07657,
+        59.4289,
+        8.07657,
+        59.4289,
+        2.60711,
+        59.4289,
+        2.60711,
+        59.4289,
+        2.60711,
+        59.4289,
+        2.60711,
+        48.48997,
+        2.60711,
+        48.48997,
+        2.60711,
+        48.48997
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    }
+  ]
+}

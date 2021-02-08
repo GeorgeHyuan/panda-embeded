@@ -1,0 +1,75 @@
+{
+  "modified": "Sat Oct 12 2019 10:28:10 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "name": "颜色"
+    }
+  ],
+  "width": 23,
+  "height": 50,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 0.9901,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        11.99505,
+        0,
+        11.99505,
+        20.29703
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.9901,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "attr@lineColor",
+      "pixelPerfect": true,
+      "points": [
+        11.99505,
+        29.70297,
+        11.99505,
+        50
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.9901,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        22.88614,
+        29.20792,
+        0.11386,
+        29.20792
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.9901,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        22.88614,
+        20.29703,
+        0.11386,
+        20.29703
+      ]
+    }
+  ]
+}

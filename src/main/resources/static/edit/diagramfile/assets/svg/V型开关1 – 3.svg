@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49" height="48" viewBox="0 0 49 48">
+  <g id="组_14" data-name="组 14" transform="translate(-0.5 -1)">
+    <g id="椭圆_3" data-name="椭圆 3" transform="translate(0.5 1)" fill="none" stroke="#0393d6" stroke-width="1">
+      <circle cx="3" cy="3" r="3" stroke="none"/>
+      <circle cx="3" cy="3" r="2.5" fill="none"/>
+    </g>
+    <g id="椭圆_5" data-name="椭圆 5" transform="translate(0.5 43)" fill="none" stroke="#0393d6" stroke-width="1">
+      <circle cx="3" cy="3" r="3" stroke="none"/>
+      <circle cx="3" cy="3" r="2.5" fill="none"/>
+    </g>
+    <circle id="椭圆_4" data-name="椭圆 4" cx="3" cy="3" r="3" transform="translate(43.5 43)" fill="#0393d6"/>
+    <g id="椭圆_6" data-name="椭圆 6" transform="translate(43.5 1)" fill="none" stroke="#0393d6" stroke-width="1">
+      <circle cx="3" cy="3" r="3" stroke="none"/>
+      <circle cx="3" cy="3" r="2.5" fill="none"/>
+    </g>
+    <line id="直线_6" data-name="直线 6" x2="39" y2="39" transform="translate(44.5 44.5) rotate(180)" fill="none" stroke="#0393d6" stroke-width="1"/>
+    <line id="直线_7" data-name="直线 7" y1="20" x2="19" transform="translate(5.5 24.5)" fill="none" stroke="#0393d6" stroke-width="1"/>
+  </g>
+</svg>

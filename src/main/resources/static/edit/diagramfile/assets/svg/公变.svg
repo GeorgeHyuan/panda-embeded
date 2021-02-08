@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40.002" height="50" viewBox="0 0 40.002 50">
+  <g id="组_32" data-name="组 32" transform="translate(-8)">
+    <g id="多边形_4" data-name="多边形 4" transform="translate(15.5)" fill="none">
+      <path d="M5,0l5,8H0Z" stroke="none"/>
+      <path d="M 5 1.886799812316895 L 1.80424976348877 7 L 8.19575023651123 7 L 5 1.886799812316895 M 5 0 L 10 8 L 0 8 L 5 0 Z" stroke="none" fill="#0393d6"/>
+    </g>
+    <g id="多边形_5" data-name="多边形 5" transform="translate(15.5 13)" fill="none">
+      <path d="M5,0l5,8H0Z" stroke="none"/>
+      <path d="M 5 1.886799812316895 L 1.80424976348877 7 L 8.19575023651123 7 L 5 1.886799812316895 M 5 0 L 10 8 L 0 8 L 5 0 Z" stroke="none" fill="#0393d6"/>
+    </g>
+    <g id="椭圆_11" data-name="椭圆 11" transform="translate(8 9)" fill="none" stroke="#0393d6" stroke-width="1">
+      <circle cx="12.5" cy="12.5" r="12.5" stroke="none"/>
+      <circle cx="12.5" cy="12.5" r="12" fill="none"/>
+    </g>
+    <g id="椭圆_12" data-name="椭圆 12" transform="translate(8 25)" fill="none" stroke="#0393d6" stroke-width="1">
+      <circle cx="12.5" cy="12.5" r="12.5" stroke="none"/>
+      <circle cx="12.5" cy="12.5" r="12" fill="none"/>
+    </g>
+    <line id="直线_66" data-name="直线 66" y2="2" transform="translate(20.5 7.5)" fill="none" stroke="#0393d6" stroke-width="1"/>
+    <text id="Y" transform="translate(17 46)" fill="#707070" font-size="14" font-family="STHeitiSC-Medium, Heiti SC" font-weight="500"><tspan x="0" y="0">Y</tspan></text>
+    <line id="直线_67" data-name="直线 67" y2="8.995" transform="translate(37.007 49.5) rotate(-90)" fill="none" stroke="#0393d6" stroke-width="1"/>
+    <line id="直线_68" data-name="直线 68" y2="10.995" transform="translate(36.007 47.5) rotate(-90)" fill="none" stroke="#0393d6" stroke-width="1"/>
+    <line id="直线_69" data-name="直线 69" y2="12.995" transform="translate(35.007 45.5) rotate(-90)" fill="none" stroke="#0393d6" stroke-width="1"/>
+    <path id="路径_39" data-name="路径 39" d="M0,0H15.879V7.581" transform="translate(25.5 37.5)" fill="none" stroke="#0393d6" stroke-width="1"/>
+  </g>
+</svg>

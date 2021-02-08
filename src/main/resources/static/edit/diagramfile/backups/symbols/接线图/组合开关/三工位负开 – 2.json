@@ -1,0 +1,141 @@
+{
+  "modified": "Sat Oct 12 2019 11:21:50 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "earthColor",
+      "valueType": "Color",
+      "name": "接地颜色"
+    },
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "name": "颜色"
+    }
+  ],
+  "width": 29,
+  "height": 50,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 0.98305,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "attr@earthColor",
+      "pixelPerfect": true,
+      "points": [
+        0.49153,
+        19.51556,
+        0.49153,
+        29.34607
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.98305,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        16.22034,
+        19.51556,
+        16.22034,
+        29.34607
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.98305,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        16.22034,
+        24.43081,
+        6.38983,
+        24.43081
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.98305,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        3.44068,
+        18.53251,
+        3.44068,
+        30.32912
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.98305,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        6.38983,
+        17.54946,
+        6.38983,
+        31.31217
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.98305,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        28.50847,
+        0.34607,
+        28.50847,
+        19.02403
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.98305,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        28.32563,
+        30.93959,
+        17.03824,
+        19.16264
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.98305,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "attr@lineColor",
+      "pixelPerfect": true,
+      "points": [
+        28.1182,
+        49.07983,
+        28.1182,
+        30.55129
+      ]
+    }
+  ]
+}

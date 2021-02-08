@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d2109d1"],{b948:function(e,a,r){"use strict";r.r(a),r.d(a,"statusName",(function(){return c}));var c=function(e){var a=Number(e),r="";switch(a){case 1:r="已完成";break;case 2:r="异常终止";break;case 3:r="任务暂停";break;case 4:r="正在执行";break;case 5:r="等待执行";break;case 6:r="手动停止";break;default:break}return r}}}]);

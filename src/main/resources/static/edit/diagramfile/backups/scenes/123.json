@@ -1,0 +1,65 @@
+{
+  "v": "7.0.2",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true,
+    "postProcessingData": {
+      "bloom": {
+        "enable": false,
+        "strength": 1.5,
+        "threshold": 0.55,
+        "radius": 0.4,
+        "overrideAlpha": false
+      },
+      "dof": {
+        "enable": false,
+        "aperture": 0.025,
+        "maxblur": 1,
+        "image": null
+      }
+    }
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 1567,
+      "p": {
+        "position": {
+          "x": 144.5,
+          "y": 275
+        },
+        "anchorElevation": 0,
+        "width": 69,
+        "height": 74,
+        "tall": 50
+      },
+      "s": {
+        "all.color": "#DDDDDD"
+      }
+    }
+  ],
+  "scene": {
+    "eye": [
+      0,
+      300,
+      1000
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "near": 10,
+    "far": 10000,
+    "gridVisible": true,
+    "gridSize": 50,
+    "gridGap": 50,
+    "gridColor": [
+      0.4,
+      0.75,
+      0.85,
+      1
+    ],
+    "editHelperDisabled": false
+  }
+}

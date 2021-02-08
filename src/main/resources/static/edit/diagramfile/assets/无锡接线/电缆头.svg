@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="10" viewBox="0 0 36 10">
+  <g id="组_148" data-name="组 148" transform="translate(500 -1164)">
+    <g id="多边形_24" data-name="多边形 24" transform="translate(-478 1164) rotate(90)" fill="none">
+      <path d="M5,0l5,8H0Z" stroke="none"/>
+      <path d="M 5 1.886799812316895 L 1.80424976348877 7 L 8.19575023651123 7 L 5 1.886799812316895 M 5 0 L 10 8 L 0 8 L 5 0 Z" stroke="none" fill="red"/>
+    </g>
+    <line id="直线_478" data-name="直线 478" x2="36" transform="translate(-500 1169)" fill="none" stroke="red" stroke-width="1"/>
+  </g>
+</svg>

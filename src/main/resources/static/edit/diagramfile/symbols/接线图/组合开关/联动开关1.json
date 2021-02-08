@@ -1,0 +1,413 @@
+{
+  "modified": "Thu Oct 24 2019 14:08:43 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "name": "颜色"
+    },
+    {
+      "attr": "earthColor",
+      "valueType": "Color",
+      "name": "接地颜色"
+    },
+    {
+      "attr": "switchState",
+      "valueType": "Number",
+      "name": "遥信状态"
+    }
+  ],
+  "width": 50,
+  "height": 38,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": true,
+      "pixelPerfect": true,
+      "anchorX": 0,
+      "anchorY": 1,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    \r\n    return Math.PI / 180 * (-10)\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 13\r\n}\n}",
+        "value": -0.15708
+      },
+      "points": [
+        41.70879,
+        6.844,
+        34.81987,
+        9.86615,
+        29.95579,
+        12
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        13.5,
+        8,
+        29.5,
+        8,
+        29.5,
+        8,
+        29.5,
+        8,
+        29.5,
+        16,
+        29.5,
+        16,
+        29.5,
+        16,
+        13.5,
+        16,
+        13.5,
+        16,
+        13.5,
+        16,
+        13.5,
+        8,
+        13.5,
+        8,
+        13.5,
+        8
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        22,
+        0.5,
+        22,
+        7.5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        44,
+        8.5,
+        44,
+        16.5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        4,
+        12.5,
+        4,
+        15.657
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        7,
+        15.657,
+        1,
+        15.657
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        30.5,
+        12,
+        0,
+        12
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        50,
+        12.5,
+        44,
+        12.5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        7,
+        33.5,
+        1,
+        33.5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        4,
+        33.5,
+        4,
+        28.5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        6,
+        35.5,
+        2,
+        35.5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "attr@earthColor",
+      "pixelPerfect": true,
+      "points": [
+        5,
+        37.5,
+        3,
+        37.5
+      ]
+    },
+    {
+      "type": "shape",
+      "dash": true,
+      "dashPattern": [
+        2,
+        2
+      ],
+      "dashOffset": 1,
+      "dashColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(2,147,214)"
+      },
+      "dashWidth": 1,
+      "pixelPerfect": true,
+      "points": [
+        37.10909,
+        6.844,
+        36.95054,
+        0.5,
+        21.506,
+        0.5
+      ]
+    },
+    {
+      "type": "shape",
+      "dash": true,
+      "dashPattern": [
+        2,
+        2
+      ],
+      "dashOffset": 1,
+      "dashColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(2,147,214)"
+      },
+      "dashWidth": 1,
+      "pixelPerfect": true,
+      "points": [
+        8.775,
+        23.703,
+        17.487,
+        23.609,
+        22.544,
+        23.609
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        22,
+        16.5,
+        22,
+        23.5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": true,
+      "pixelPerfect": true,
+      "anchorX": -0.05516,
+      "anchorY": 0.9559,
+      "points": [
+        6.545,
+        15.866,
+        6.545,
+        15.866,
+        5.81119,
+        19.6899,
+        5.17494,
+        23.0054,
+        4.53869,
+        26.3209,
+        4,
+        29.128,
+        4,
+        29.128
+      ],
+      "segments": [
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "attr@lineColor",
+      "pixelPerfect": true,
+      "points": [
+        43.5,
+        12.5,
+        43.5,
+        11.12854,
+        42.37146,
+        10,
+        41,
+        10,
+        39.62854,
+        10,
+        38.5,
+        11.12854,
+        38.5,
+        12.5,
+        38.5,
+        13.87146,
+        39.62854,
+        15,
+        41,
+        15,
+        42.37146,
+        15,
+        43.5,
+        13.87146,
+        43.5,
+        12.5
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nvar color = data.getAttr('lineColor')\r\nconsole.log(color, '颜色值')\r\nif (!color) {\r\n    return\r\n} else {\r\nif (data.getAttr('switchState') === 0) {\r\n    return 'rgba(0,0,0,0)'\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return color || data.getAttr('borderColor')\r\n}\r\n}\n}",
+        "value": "rgba(0,0,0,0.01)"
+      },
+      "dashColor": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    \r\n    return 'rgba(0,0,0,0)'\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return 'rgb(2,147,214)'\r\n}\n}",
+      "points": [
+        37.10909,
+        7.5,
+        37.10909,
+        7.97079,
+        37.10909,
+        9.38315,
+        37.10909,
+        9.38315,
+        37.10909,
+        10.67911
+      ],
+      "segments": [
+        1,
+        4,
+        2
+      ]
+    }
+  ]
+}

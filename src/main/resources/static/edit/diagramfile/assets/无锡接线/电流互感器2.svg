@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="9" height="12" viewBox="0 0 9 12">
+  <g id="组_147" data-name="组 147" transform="translate(505 -1106.5)">
+    <line id="直线_476" data-name="直线 476" y2="12" transform="translate(-500.5 1106.5)" fill="none" stroke="red" stroke-width="1"/>
+    <g id="椭圆_113" data-name="椭圆 113" transform="translate(-505 1108)" fill="none" stroke="red" stroke-width="1">
+      <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+      <circle cx="4.5" cy="4.5" r="4" fill="none"/>
+    </g>
+  </g>
+</svg>

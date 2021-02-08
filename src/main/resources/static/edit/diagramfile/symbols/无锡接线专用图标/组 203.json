@@ -1,0 +1,127 @@
+{
+  "modified": "Thu Dec 12 2019 15:46:46 GMT+0800 (中国标准时间)",
+  "width": 11,
+  "height": 29,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 0.93347,
+      "borderColor": "#000000",
+      "pixelPerfect": true,
+      "points": [
+        5.73337,
+        19.40071,
+        5.73337,
+        24.06806
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.93347,
+      "borderColor": "#000000",
+      "pixelPerfect": true,
+      "points": [
+        5.73337,
+        0.73133,
+        5.73337,
+        8.19908
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.93347,
+      "borderColor": "#000000",
+      "pixelPerfect": true,
+      "points": [
+        7.60031,
+        25.935,
+        3.86643,
+        25.935
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.93347,
+      "borderColor": "#000000",
+      "pixelPerfect": true,
+      "points": [
+        9.00051,
+        24.06806,
+        2.46623,
+        24.06806
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.93347,
+      "borderColor": "#000000",
+      "pixelPerfect": true,
+      "points": [
+        6.66684,
+        27.80193,
+        4.7999,
+        27.80193
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.93358,
+      "borderColor": "#000000",
+      "pixelPerfect": true,
+      "points": [
+        10.63518,
+        11.75523,
+        3.82376,
+        14.44858,
+        0.36499,
+        15.81292
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.93347,
+      "borderColor": "#000000",
+      "pixelPerfect": true,
+      "points": [
+        2.93296,
+        8.19908,
+        8.53377,
+        8.19908,
+        8.53377,
+        8.19908,
+        8.53377,
+        8.19908,
+        8.53377,
+        19.40071,
+        8.53377,
+        19.40071,
+        8.53377,
+        19.40071,
+        2.93296,
+        19.40071,
+        2.93296,
+        19.40071,
+        2.93296,
+        19.40071,
+        2.93296,
+        8.19908,
+        2.93296,
+        8.19908,
+        2.93296,
+        8.19908
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    }
+  ]
+}

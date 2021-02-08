@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8.149" height="30.5" viewBox="0 0 8.149 30.5">
+  <g id="组_158" data-name="组 158" transform="translate(-100.5 -710.5)">
+    <line id="直线_500" data-name="直线 500" y2="3" transform="translate(104.5 721.5)" fill="none" stroke="red" stroke-width="1"/>
+    <line id="直线_504" data-name="直线 504" y2="9" transform="translate(104.5 710.5)" fill="none" stroke="red" stroke-width="1"/>
+    <line id="直线_501" data-name="直线 501" y2="5" transform="translate(104.5 731.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <line id="直线_503" data-name="直线 503" x1="8.149" transform="translate(100.5 719.5)" fill="none" stroke="red" stroke-width="1"/>
+    <line id="直线_502" data-name="直线 502" x1="8.149" transform="translate(100.5 721.5)" fill="none" stroke="red" stroke-width="1"/>
+    <line id="直线_499" data-name="直线 499" x1="6" transform="translate(101.5 738.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <line id="直线_498" data-name="直线 498" x1="8" transform="translate(100.5 736.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <path id="路径_117" data-name="路径 117" d="M3.883,0H0" transform="translate(102.5 740.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <g id="组_155" data-name="组 155" transform="translate(190.5 -123)">
+      <g id="组_66" data-name="组 66" transform="translate(-88.863 848.311)">
+        <path id="路径_72" data-name="路径 72" d="M.3.384,1.391,1.407l4,4" transform="translate(0.139 -0.384)" fill="none" stroke="red" stroke-width="1"/>
+        <path id="路径_71" data-name="路径 71" d="M5.179-1.5-.295,3.562" transform="translate(0.295 1.524)" fill="none" stroke="red" stroke-width="1"/>
+      </g>
+      <g id="椭圆_29" data-name="椭圆 29" transform="translate(-90 847)" fill="none" stroke="red" stroke-width="1">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

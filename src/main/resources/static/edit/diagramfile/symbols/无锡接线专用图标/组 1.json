@@ -1,0 +1,62 @@
+{
+  "modified": "Fri Dec 13 2019 10:17:53 GMT+0800 (中国标准时间)",
+  "width": 40,
+  "height": 40,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "#000000",
+      "pixelPerfect": true,
+      "points": [
+        39,
+        20,
+        39,
+        9.57691,
+        30.42309,
+        1,
+        20,
+        1,
+        9.57691,
+        1,
+        1,
+        9.57691,
+        1,
+        20,
+        1,
+        30.42309,
+        9.57691,
+        39,
+        20,
+        39,
+        30.42309,
+        39,
+        39,
+        30.42309,
+        39,
+        20
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "text",
+      "text": "M",
+      "vAlign": "bottom",
+      "color": "#000000",
+      "font": "24px DengXian",
+      "pixelPerfect": true,
+      "rect": [
+        6.02041,
+        38.99,
+        0.01,
+        0.01
+      ]
+    }
+  ]
+}

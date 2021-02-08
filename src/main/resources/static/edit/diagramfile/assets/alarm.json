@@ -1,0 +1,114 @@
+{
+  "v": "5.3.6",
+  "p": {
+    "autoAdjustIndex": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 291,
+      "p": {
+        "name": "Critical",
+        "position": {
+          "x": 100,
+          "y": 100
+        }
+      },
+      "s": {
+        "icons": {
+          "alarm": {
+            "position": 24,
+            "width": 18,
+            "height": 18,
+            "names": [
+              "symbols/alarm/alarm.json"
+            ]
+          }
+        }
+      },
+      "a": {
+        "alarm.color": "#FF0000",
+        "alarm.opacity": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 292,
+      "p": {
+        "name": "Major",
+        "position": {
+          "x": 200,
+          "y": 100
+        }
+      },
+      "s": {
+        "icons": {
+          "alarm": {
+            "position": 24,
+            "width": 18,
+            "height": 18,
+            "names": [
+              "symbols/alarm/alarm.json"
+            ]
+          }
+        }
+      },
+      "a": {
+        "alarm.color": "#FFA000",
+        "alarm.opacity": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 293,
+      "p": {
+        "name": "Minor",
+        "position": {
+          "x": 300,
+          "y": 100
+        }
+      },
+      "s": {
+        "icons": {
+          "alarm": {
+            "position": 24,
+            "width": 18,
+            "height": 18,
+            "names": [
+              "symbols/alarm/alarm.json"
+            ]
+          }
+        }
+      },
+      "a": {
+        "alarm.color": "#FFFF00"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 294,
+      "p": {
+        "name": "Warning",
+        "position": {
+          "x": 400,
+          "y": 100
+        }
+      },
+      "s": {
+        "icons": {
+          "alarm": {
+            "position": 24,
+            "width": 18,
+            "height": 18,
+            "names": [
+              "symbols/alarm/alarm.json"
+            ]
+          }
+        }
+      },
+      "a": {
+        "alarm.color": "#00FFFF"
+      }
+    }
+  ]
+}

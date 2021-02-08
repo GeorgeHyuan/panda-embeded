@@ -1,0 +1,51 @@
+{
+  "v": "7.0.2",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null,
+    "spaceUuid": "4591133583377408",
+    "uuid": "4593908082131968",
+    "diagramType": 0
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 555,
+      "p": {
+        "displayName": "温湿度",
+        "image": "symbols/告警状态/温湿度.json",
+        "position": {
+          "x": -45.78539,
+          "y": -1.80667
+        },
+        "width": 62.57192,
+        "height": 64.18872
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 809,
+      "p": {
+        "displayName": "门",
+        "image": "symbols/告警状态/门.json",
+        "position": {
+          "x": -18.95828,
+          "y": 62.00243
+        },
+        "width": 68.74647,
+        "height": 69.58885
+      }
+    }
+  ],
+  "modified": "Mon Sep 23 2019 15:49:22 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -77.07135,
+    "y": -33.90104,
+    "width": 92.4863,
+    "height": 130.69789
+  }
+}

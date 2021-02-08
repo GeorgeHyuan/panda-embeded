@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pand.pand.mapper.DeviceMapper">
+
+
+    <select id="modelCount" resultType="com.pand.pand.entity.po.DeviceModelCountPo">
+        SELECT nodeModel as model,count(*) as count from device GROUP BY nodeModel
+    </select>
+</mapper>

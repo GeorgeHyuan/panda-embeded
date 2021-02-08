@@ -1,0 +1,16 @@
+{
+  "v": "7.0.2",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null,
+    "spaceUuid": "4578313066513408",
+    "uuid": "4588351683560448",
+    "diagramType": 0
+  },
+  "d": [],
+  "modified": "Thu Sep 19 2019 18:40:15 GMT+0800 (中国标准时间)"
+}

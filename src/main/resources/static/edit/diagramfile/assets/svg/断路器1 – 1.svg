@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="9" height="51" viewBox="0 0 9 51">
+  <g id="组_43" data-name="组 43" transform="translate(-20 0.5)">
+    <g id="矩形_4" data-name="矩形 4" transform="translate(20 12)" fill="none" stroke="#0393d6" stroke-width="1">
+      <rect width="9" height="26" stroke="none"/>
+      <rect x="0.5" y="0.5" width="8" height="25" fill="none"/>
+    </g>
+    <line id="直线_1" data-name="直线 1" y2="13" transform="translate(24.5 -0.5)" fill="none" stroke="#0393d6" stroke-width="1"/>
+    <line id="直线_2" data-name="直线 2" y1="13" transform="translate(24.5 37.5)" fill="none" stroke="#0393d6" stroke-width="1"/>
+  </g>
+</svg>

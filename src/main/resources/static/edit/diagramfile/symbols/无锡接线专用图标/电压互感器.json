@@ -1,0 +1,364 @@
+{
+  "modified": "Fri Oct 11 2019 17:42:50 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "name": "颜色"
+    }
+  ],
+  "width": 28,
+  "height": 29,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#ff0000"
+      },
+      "pixelPerfect": true,
+      "points": [
+        14,
+        11.5,
+        14,
+        6.5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#ff0000"
+      },
+      "pixelPerfect": true,
+      "points": [
+        14,
+        7.5,
+        11,
+        4.5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#ff0000"
+      },
+      "pixelPerfect": true,
+      "points": [
+        14,
+        7.5,
+        17,
+        4.5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#ff0000"
+      },
+      "pixelPerfect": true,
+      "points": [
+        20.5,
+        7,
+        20.5,
+        3.43421,
+        17.56579,
+        0.5,
+        14,
+        0.5,
+        10.43421,
+        0.5,
+        7.5,
+        3.43421,
+        7.5,
+        7,
+        7.5,
+        10.56579,
+        10.43421,
+        13.5,
+        14,
+        13.5,
+        17.56579,
+        13.5,
+        20.5,
+        10.56579,
+        20.5,
+        7
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#ff0000"
+      },
+      "pixelPerfect": true,
+      "points": [
+        7,
+        18.5,
+        7,
+        13.5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#ff0000"
+      },
+      "pixelPerfect": true,
+      "points": [
+        7,
+        14.5,
+        4,
+        11.5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#ff0000"
+      },
+      "pixelPerfect": true,
+      "points": [
+        7,
+        14.5,
+        10,
+        11.5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#ff0000"
+      },
+      "pixelPerfect": true,
+      "points": [
+        13.5,
+        14,
+        13.5,
+        10.43421,
+        10.56579,
+        7.5,
+        7,
+        7.5,
+        3.43421,
+        7.5,
+        0.5,
+        10.43421,
+        0.5,
+        14,
+        0.5,
+        17.56579,
+        3.43421,
+        20.5,
+        7,
+        20.5,
+        10.56579,
+        20.5,
+        13.5,
+        17.56579,
+        13.5,
+        14
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#ff0000"
+      },
+      "pixelPerfect": true,
+      "points": [
+        14,
+        26.5,
+        14,
+        21.5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#ff0000"
+      },
+      "pixelPerfect": true,
+      "points": [
+        14,
+        22.5,
+        11,
+        19.5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#ff0000"
+      },
+      "pixelPerfect": true,
+      "points": [
+        14,
+        22.5,
+        17,
+        19.5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#ff0000"
+      },
+      "pixelPerfect": true,
+      "points": [
+        20.5,
+        22,
+        20.5,
+        18.43421,
+        17.56579,
+        15.5,
+        14,
+        15.5,
+        10.43421,
+        15.5,
+        7.5,
+        18.43421,
+        7.5,
+        22,
+        7.5,
+        25.56579,
+        10.43421,
+        28.5,
+        14,
+        28.5,
+        17.56579,
+        28.5,
+        20.5,
+        25.56579,
+        20.5,
+        22
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#ff0000"
+      },
+      "dashColor": "attr@lineColor",
+      "pixelPerfect": true,
+      "points": [
+        27.5,
+        14,
+        27.5,
+        10.43421,
+        24.56579,
+        7.5,
+        21,
+        7.5,
+        17.43421,
+        7.5,
+        14.5,
+        10.43421,
+        14.5,
+        14,
+        14.5,
+        17.56579,
+        17.43421,
+        20.5,
+        21,
+        20.5,
+        24.56579,
+        20.5,
+        27.5,
+        17.56579,
+        27.5,
+        14
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "background": {
+        "func": "attr@lineColor",
+        "value": "#ff0000"
+      },
+      "dashColor": "attr@lineColor",
+      "pixelPerfect": true,
+      "points": [
+        23.19723,
+        14,
+        20,
+        11.86852,
+        20,
+        16.13148,
+        23.19723,
+        14,
+        25,
+        14,
+        19,
+        18,
+        19,
+        10,
+        25,
+        14
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        5
+      ]
+    }
+  ]
+}

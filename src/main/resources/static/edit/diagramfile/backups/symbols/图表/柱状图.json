@@ -1,0 +1,26 @@
+{
+  "modified": "Thu Oct 24 2019 14:24:21 GMT+0800 (中国标准时间)",
+  "width": 250,
+  "height": 150,
+  "comps": [
+    {
+      "type": "components/图表/chart.json",
+      "displayName": "chart",
+      "rect": [
+        0,
+        0,
+        250,
+        150
+      ],
+      "onClick": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onClick.apply(this, arguments);\n}",
+      "onDown": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onDown.apply(this, arguments);\n}",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onUp.apply(this, arguments);\n}",
+      "onMove": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onMove.apply(this, arguments);\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onEnter.apply(this, arguments);\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onLeave.apply(this, arguments);\n}",
+      "onBeginDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onBeginDrag.apply(this, arguments);\n}",
+      "onDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onDrag.apply(this, arguments);\n}",
+      "onEndDrag": "__ht__function(event, data, view, point, width, height) {\nht.vector.chartInteractor.onEndDrag.apply(this, arguments);\n}"
+    }
+  ]
+}

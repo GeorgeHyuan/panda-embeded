@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pand.pand.mapper.HstEvtMapper">
+
+
+    <select id="getEvtCount" resultType="com.pand.pand.entity.vo.EvtCountVo">
+
+        SELECT cmd_name as alarmType,count(*) as count from hst_evt GROUP BY cmd_name
+    </select>
+
+    <select id="getTmpHum" resultType="com.pand.pand.entity.vo.HumTmpVo">
+
+
+
+        SELECT dateTime,YC  as yc from  history WHERE nodeId =(
+
+        SELECT nodeId from device WHERE nodeModel='TTAH'  LIMIT 1)  ORDER BY dateTime asc  LIMIT  100;
+    </select>
+</mapper>

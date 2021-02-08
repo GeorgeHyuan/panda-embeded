@@ -1,0 +1,356 @@
+{
+  "modified": "Thu Oct 24 2019 14:09:51 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "name": "颜色"
+    },
+    {
+      "attr": "bgColor",
+      "valueType": "Color",
+      "name": "背景色"
+    },
+    {
+      "attr": "switchState",
+      "valueType": "Number",
+      "name": "遥信状态"
+    }
+  ],
+  "width": 10,
+  "height": 60,
+  "comps": [
+    {
+      "type": "shape",
+      "background": {
+        "func": "__ht__function(data, view) {\nvar bgColor = data.getAttr('bgColor')\r\nif (data.getAttr('switchState') === 0) {\r\n    return 'rgba(0,0,0,0)'\r\n} else if (data.getAttr('switchState') === 1) {\r\nreturn bgColor\r\n} else if (data.getAttr('switchState') === 2) {\r\n    return 'rgba(0,0,0,0)'\r\n}\n}",
+        "value": null
+      },
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "__ht__function(data, view) {\nvar bgColor = data.getAttr('bgColor')\r\nif (data.getAttr('switchState') === 0) {\r\n    return 'rgba(0,0,0,0)'\r\n} else if (data.getAttr('switchState') === 1) {\r\nreturn bgColor\r\n} else if (data.getAttr('switchState') === 2) {\r\n    return 'rgba(0,0,0,0)'\r\n}\n}",
+      "pixelPerfect": true,
+      "points": [
+        1,
+        19.5,
+        9,
+        19.5,
+        9,
+        19.5,
+        9,
+        19.5,
+        9,
+        40.5,
+        9,
+        40.5,
+        9,
+        40.5,
+        1,
+        40.5,
+        1,
+        40.5,
+        1,
+        40.5,
+        1,
+        19.5,
+        1,
+        19.5,
+        1,
+        19.5
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        5,
+        6,
+        5,
+        19.5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        5,
+        54,
+        5,
+        40.5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(2,147,214)"
+      },
+      "dashColor": -0.10472,
+      "anchorX": 0.97726,
+      "anchorY": 0.03268,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n        return Math.PI / 180 * (-6)\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * (-6)\r\n} else if (data.getAttr('switchState') === 2) {\r\n    return Math.PI / 180 * 90\r\n}\n}",
+        "value": -0.10472
+      },
+      "points": [
+        5.13085,
+        5.83476,
+        5.13085,
+        5.83476,
+        3.01131,
+        7.9543,
+        1.72611,
+        9.2395,
+        0.44091,
+        10.5247,
+        -0.00996,
+        10.97557,
+        -0.00996,
+        10.97557
+      ],
+      "segments": [
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(2,147,214)"
+      },
+      "dashColor": 0,
+      "anchorX": 0.02345,
+      "anchorY": 0,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n        return Math.PI / 180 * 0\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 0\r\n} else if (data.getAttr('switchState') === 2) {\r\n    return Math.PI / 180 * (-90)\r\n}\n}",
+        "value": 0
+      },
+      "points": [
+        4.5,
+        5.82346,
+        7.22204,
+        8.54551,
+        9.84533,
+        11.1688
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(2,147,214)"
+      },
+      "dashColor": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n        return Math.PI / 180 * (-6)\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * (-6)\r\n} else if (data.getAttr('switchState') === 2) {\r\n    return Math.PI / 180 * 90\r\n}\n}",
+      "anchorX": 0.97726,
+      "anchorY": 0.03268,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n        return Math.PI / 180 * (-6)\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * (-6)\r\n} else if (data.getAttr('switchState') === 2) {\r\n    return Math.PI / 180 * 90\r\n}\n}",
+        "value": -0.10472
+      },
+      "points": [
+        5.13085,
+        9.83476,
+        5.13085,
+        9.83476,
+        3.01131,
+        11.9543,
+        1.72611,
+        13.2395,
+        0.44091,
+        14.5247,
+        -0.00996,
+        14.97557,
+        -0.00996,
+        14.97557
+      ],
+      "segments": [
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(2,147,214)"
+      },
+      "dashColor": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n        return Math.PI / 180 * 0\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 0\r\n} else if (data.getAttr('switchState') === 2) {\r\n    return Math.PI / 180 * (-90)\r\n}\n}",
+      "anchorX": 0.02345,
+      "anchorY": 0,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n        return Math.PI / 180 * 0\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 0\r\n} else if (data.getAttr('switchState') === 2) {\r\n    return Math.PI / 180 * (-90)\r\n}\n}",
+        "value": 0
+      },
+      "points": [
+        4.5,
+        9.82346,
+        7.22204,
+        12.54551,
+        9.84533,
+        15.1688
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(2,147,214)"
+      },
+      "dashColor": {
+        "x": 4.65507,
+        "y": 53.80869
+      },
+      "anchorX": 0.97726,
+      "anchorY": 0.03268,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n        return Math.PI / 180 * 177\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 177\r\n} else if (data.getAttr('switchState') === 2) {\r\n    return Math.PI / 180 * 266\r\n}\n}",
+        "value": 3.08923
+      },
+      "points": [
+        4.77199,
+        53.64067,
+        4.77199,
+        53.64067,
+        2.65245,
+        55.7602,
+        1.36725,
+        57.0454,
+        0.08205,
+        58.3306,
+        -0.36882,
+        58.78147,
+        -0.36882,
+        58.78147
+      ],
+      "segments": [
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(2,147,214)"
+      },
+      "dashColor": {
+        "x": 5.01825,
+        "y": 49.97266
+      },
+      "anchorX": 0.02345,
+      "anchorY": 0,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n        return Math.PI / 180 * (-176)\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * (-176)\r\n} else if (data.getAttr('switchState') === 2) {\r\n    return Math.PI / 180 * (-266)\r\n}\n}",
+        "value": -3.07482
+      },
+      "points": [
+        4.8929,
+        53.97266,
+        7.61495,
+        56.69471,
+        10.23823,
+        59.318
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(2,147,214)"
+      },
+      "dashColor": {
+        "x": 4.65507,
+        "y": 45.80869
+      },
+      "anchorX": 0.97726,
+      "anchorY": 0.03268,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n        return Math.PI / 180 * 177\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 177\r\n} else if (data.getAttr('switchState') === 2) {\r\n    return Math.PI / 180 * 266\r\n}\n}",
+        "value": 3.08923
+      },
+      "points": [
+        4.77199,
+        49.64067,
+        4.77199,
+        49.64067,
+        2.65245,
+        51.7602,
+        1.36725,
+        53.0454,
+        0.08205,
+        54.3306,
+        -0.36882,
+        54.78147,
+        -0.36882,
+        54.78147
+      ],
+      "segments": [
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(2,147,214)"
+      },
+      "dashColor": {
+        "x": 5.01825,
+        "y": 49.97266
+      },
+      "anchorX": 0.02345,
+      "anchorY": 0,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n        return Math.PI / 180 * (-176)\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * (-176)\r\n} else if (data.getAttr('switchState') === 2) {\r\n    return Math.PI / 180 * (-266)\r\n}\n}",
+        "value": -3.07178
+      },
+      "points": [
+        4.8929,
+        49.97266,
+        7.61495,
+        52.69471,
+        10.23823,
+        55.318
+      ]
+    }
+  ]
+}

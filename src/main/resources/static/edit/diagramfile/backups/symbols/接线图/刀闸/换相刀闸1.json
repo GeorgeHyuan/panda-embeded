@@ -1,0 +1,89 @@
+{
+  "modified": "Wed Dec 11 2019 15:57:13 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "name": "颜色"
+    },
+    {
+      "attr": "switchState",
+      "valueType": "Number",
+      "name": "遥信状态"
+    }
+  ],
+  "width": 15,
+  "height": 50,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 0.94047,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,199,7)"
+      },
+      "pixelPerfect": true,
+      "points": [
+        13,
+        20.76789,
+        3.59532,
+        20.76789
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.94047,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,199,7)"
+      },
+      "pixelPerfect": true,
+      "points": [
+        8.29766,
+        1.48829,
+        8.29766,
+        21.23813
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.94047,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,199,7)"
+      },
+      "dashColor": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * (-18)\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 0\r\n}\n}",
+      "pixelPerfect": true,
+      "anchorX": 1,
+      "anchorY": 1,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * (-18)\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 0\r\n}\n}",
+        "value": -0.31416
+      },
+      "points": [
+        8.29766,
+        30.95975,
+        5.90014,
+        25.81156,
+        3.42603,
+        20.49892
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.94047,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "rgb(0,199,7)"
+      },
+      "dashColor": "attr@lineColor",
+      "pixelPerfect": true,
+      "points": [
+        8.29766,
+        47.97376,
+        8.29766,
+        30.6287
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "modified": "Thu Oct 24 2019 14:10:00 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "name": "颜色"
+    },
+    {
+      "attr": "switchState",
+      "valueType": "Number",
+      "name": "遥信状态"
+    },
+    {
+      "attr": "bgColor",
+      "valueType": "Color",
+      "name": "背景色"
+    }
+  ],
+  "width": 9,
+  "height": 51,
+  "comps": [
+    {
+      "type": "shape",
+      "background": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return  'rgba(0,0,0,0)'\r\n} else if (data.getAttr('switchState') === 1) {\r\nreturn  data.getAttr('bgColor')\r\n}\n}",
+        "value": null
+      },
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "border3dColor": null,
+      "dashColor": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return  'rgba(0,0,0,0)'\r\n} else if (data.getAttr('switchState') === 1) {\r\nreturn  data.getAttr('bgColor')\r\n}\n}",
+      "pixelPerfect": true,
+      "points": [
+        0.5,
+        13,
+        8.5,
+        13,
+        8.5,
+        13,
+        8.5,
+        24.39909,
+        8.5,
+        38,
+        8.5,
+        38,
+        0.5,
+        38,
+        0.5,
+        38,
+        0.5,
+        13,
+        0.5,
+        13,
+        0.5,
+        13
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        4.5,
+        0,
+        4.5,
+        13
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "attr@lineColor",
+      "pixelPerfect": true,
+      "points": [
+        4.5,
+        51,
+        4.5,
+        38
+      ]
+    }
+  ]
+}

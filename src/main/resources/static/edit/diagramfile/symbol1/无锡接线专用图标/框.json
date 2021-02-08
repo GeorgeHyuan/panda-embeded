@@ -1,0 +1,50 @@
+{
+  "modified": "Sun Nov 24 2019 15:13:37 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "name": "颜色"
+    },
+    {
+      "attr": "switchState",
+      "valueType": "Number",
+      "name": "遥信状态"
+    },
+    {
+      "attr": "openColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(0,199,7)",
+      "name": "打开颜色"
+    },
+    {
+      "attr": "closeColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(212,0,0)",
+      "name": "关闭颜色"
+    }
+  ],
+  "width": 100,
+  "height": 100,
+  "comps": [
+    {
+      "type": "rect",
+      "background": {
+        "func": "__ht__function(data, view) {\nvar openColor = data.getAttr('openColor')\r\nvar closeColor = data.getAttr('closeColor')\r\nif (data.getAttr('switchState') === 0) { \r\n  return openColor\r\n} else if (data.getAttr('switchState') === 1)\r\n{    \r\n  return closeColor\r\n}\n}",
+        "value": "rgba(217,217,217,0)"
+      },
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#979797"
+      },
+      "dashColor": "attr@lineColor",
+      "rect": [
+        3.22735,
+        2.98401,
+        93.74778,
+        93.74778
+      ]
+    }
+  ]
+}

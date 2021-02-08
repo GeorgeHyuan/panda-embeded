@@ -1,0 +1,187 @@
+{
+  "modified": "Thu Oct 24 2019 14:09:40 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "switchState",
+      "valueType": "Number",
+      "name": "遥信状态"
+    },
+    {
+      "attr": "earthColor",
+      "valueType": "Color",
+      "name": "接地颜色"
+    },
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "name": "颜色"
+    }
+  ],
+  "width": 32,
+  "height": 50,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 0.97817,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "attr@earthColor",
+      "pixelPerfect": true,
+      "points": [
+        0.48909,
+        19.54228,
+        0.48909,
+        29.32402
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.97817,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        16.13988,
+        19.54228,
+        16.13988,
+        29.32402
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.97817,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        16.13988,
+        24.43315,
+        6.35813,
+        24.43315
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.97817,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        3.42361,
+        18.5641,
+        3.42361,
+        30.30219
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.97817,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        6.35813,
+        17.58593,
+        6.35813,
+        31.28037
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.97817,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "attr@lineColor",
+      "pixelPerfect": true,
+      "points": [
+        28.36706,
+        0.46787,
+        28.36706,
+        19.05319
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.97817,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        31.75566,
+        21.49862,
+        24.97866,
+        17.58593
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.97817,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        31.75566,
+        17.58593,
+        24.97866,
+        21.49862
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.97817,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * 0\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 14\r\n} else if (data.getAttr('switchState') === 2) {\r\n return Math.PI / 180 * (-15)\r\n}\n}",
+      "pixelPerfect": true,
+      "anchorX": 1,
+      "anchorY": 1,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * 0\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 14\r\n} else if (data.getAttr('switchState') === 2) {\r\n return Math.PI / 180 * (-15)\r\n}\n}",
+        "value": 0
+      },
+      "points": [
+        27.87797,
+        30.90964,
+        23.95673,
+        24.24955,
+        19.39759,
+        16.50602
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.97817,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        27.9171,
+        48.97261,
+        27.9171,
+        49.53115,
+        27.88091,
+        30.61325
+      ]
+    }
+  ]
+}

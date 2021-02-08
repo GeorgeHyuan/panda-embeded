@@ -1,0 +1,68 @@
+<!--
+ * @description: editor
+ * @version: 0.0.1
+ * @Author: dai_zheng
+ * @Date: 2019-10-25 10:55:54
+ * @LastEditors: dai_zheng
+ * @LastEditTime: 2019-10-26 10:01:08
+ -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Preview Display</title>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="custom/images/favicon.ico?v=2" />
+    <style>
+      html,
+      body {
+        padding: 0px;
+        margin: 0px;
+        background: #000;
+        height: 100%;
+        width: 100%;
+      }
+
+      #rightMenu {
+        list-style: none;
+        background: gainsboro;
+        border: solid 1px darkgrey;
+        margin: 0px;
+        position: absolute;
+        top: 0px;
+        display: none;
+        z-index: 2;
+      }
+      .colorPickerPopup {
+        z-index: 3;
+      }
+      #rightMenu li {
+        border-bottom: solid 1px darkgrey;
+      }
+      .main {
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+      }
+    </style>
+    <script src="custom/configs/htconfig.js"></script>
+    <script src="libs/ht.js"></script>
+    <script src="libs/ht-edgetype.js"></script>
+    <script src="libs/ht-obj.js"></script>
+    <script src="libs/ht-ui.js"></script>
+    <script src="libs/ht-form.js"></script>
+    <script src="libs/ht-vector.js"></script>
+    <script src="libs/jquery.min.js"></script>
+    <script></script>
+  </head>
+
+  <body>
+    <ul
+      id="rightMenu"
+      style="width: 135px;height:24px;position: relative;"
+    ></ul>
+  <script type="text/javascript" src="display.bundle.js"></script></body>
+</html>

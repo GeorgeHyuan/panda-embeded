@@ -1,0 +1,77 @@
+{
+  "v": "7.0.2",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null,
+    "spaceUuid": "4583735568696320",
+    "uuid": "4585476247782400",
+    "diagramType": 1
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 370,
+      "p": {
+        "position": {
+          "x": 19.81618,
+          "y": -112.72059
+        },
+        "width": 40.66176,
+        "height": 52.5
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.width": 1,
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 371,
+      "p": {
+        "position": {
+          "x": 28.5358,
+          "y": -150.29933
+        },
+        "width": 14.2679,
+        "height": 8.7553
+      },
+      "s": {
+        "shape": "triangle",
+        "shape.background": "#D8D8D8",
+        "shape.border.width": 1,
+        "shape.border.color": "#979797"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 373,
+      "p": {
+        "position": {
+          "x": 1.76977,
+          "y": -190.16963
+        },
+        "width": 18.98479,
+        "height": 18.01946
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.width": 1,
+        "shape.border.color": "#979797"
+      }
+    }
+  ],
+  "modified": "Thu Sep 19 2019 15:46:12 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -9.22262,
+    "y": -200.67936,
+    "width": 50.86968,
+    "height": 115.70877
+  }
+}

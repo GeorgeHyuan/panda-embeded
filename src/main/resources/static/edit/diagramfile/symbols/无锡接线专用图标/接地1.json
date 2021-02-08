@@ -1,0 +1,90 @@
+{
+  "modified": "Tue Jan 07 2020 15:50:56 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "earthColor",
+      "valueType": "Color",
+      "name": "接地颜色"
+    },
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "name": "颜色"
+    },
+    {
+      "attr": "switchState",
+      "valueType": "Number",
+      "name": "遥信状态",
+      "defaultValue": 1
+    }
+  ],
+  "width": 8,
+  "height": 10,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 0.9005,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#000000"
+      },
+      "dashColor": {
+        "x": 3.84827,
+        "y": 6.73008
+      },
+      "pixelPerfect": true,
+      "points": [
+        5.64926,
+        6.73008,
+        2.04728,
+        6.73008
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.9005,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#000000"
+      },
+      "pixelPerfect": true,
+      "points": [
+        7,
+        4.92909,
+        0.69653,
+        4.92909
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.9005,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#000000"
+      },
+      "dashColor": "attr@earthColor",
+      "pixelPerfect": true,
+      "points": [
+        4.74876,
+        8.53107,
+        2.94777,
+        8.53107
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.9005,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#000000"
+      },
+      "pixelPerfect": true,
+      "points": [
+        3.84827,
+        0.42661,
+        3.84827,
+        4.92909
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="121" height="12.233" viewBox="0 0 121 12.233">
+  <g id="组_132" data-name="组 132" transform="translate(-1316.5 -1158.688)">
+    <line id="直线_397" data-name="直线 397" x2="13" transform="translate(1316.5 1163.5)" fill="none" stroke="#892c03" stroke-width="1"/>
+    <line id="直线_396" data-name="直线 396" x2="17" transform="translate(1332.5 1163.5)" fill="none" stroke="#892c03" stroke-width="1"/>
+    <line id="直线_401" data-name="直线 401" y1="7" x2="11" transform="translate(1351.5 1163.5)" fill="none" stroke="#892c03" stroke-width="1"/>
+    <line id="直线_398" data-name="直线 398" x2="76" transform="translate(1361.5 1163.5)" fill="none" stroke="#892c03" stroke-width="1"/>
+    <g id="组_112" data-name="组 112" transform="translate(567 1093) rotate(-90)">
+      <line id="直线_109" data-name="直线 109" x2="6" y2="5" transform="translate(-73.5 779.5)" fill="none" stroke="#892c03" stroke-width="1"/>
+      <line id="直线_110" data-name="直线 110" x1="6" y2="5" transform="translate(-73.5 779.5)" fill="none" stroke="#892c03" stroke-width="1"/>
+    </g>
+    <g id="组_113" data-name="组 113" transform="translate(560.975 1090.486) rotate(-90)">
+      <line id="直线_114" data-name="直线 114" x1="4.486" y2="3.845" transform="translate(-77.5 768.5)" fill="none" stroke="#892c03" stroke-width="1"/>
+      <line id="直线_343" data-name="直线 343" x1="4.486" y2="3.845" transform="translate(-77.5 771.704)" fill="none" stroke="#892c03" stroke-width="1"/>
+      <line id="直线_113" data-name="直线 113" x2="4.486" y2="3.845" transform="translate(-73.014 768.5)" fill="none" stroke="#892c03" stroke-width="1"/>
+      <line id="直线_344" data-name="直线 344" x2="4.486" y2="3.845" transform="translate(-73.014 771.704)" fill="none" stroke="#892c03" stroke-width="1"/>
+    </g>
+    <g id="组_114" data-name="组 114" transform="translate(2168.025 1236.514) rotate(90)">
+      <line id="直线_114-2" data-name="直线 114" x1="4.486" y2="3.845" transform="translate(-77.5 768.5)" fill="none" stroke="#892c03" stroke-width="1"/>
+      <line id="直线_343-2" data-name="直线 343" x1="4.486" y2="3.845" transform="translate(-77.5 771.704)" fill="none" stroke="#892c03" stroke-width="1"/>
+      <line id="直线_113-2" data-name="直线 113" x2="4.486" y2="3.845" transform="translate(-73.014 768.5)" fill="none" stroke="#892c03" stroke-width="1"/>
+      <line id="直线_344-2" data-name="直线 344" x2="4.486" y2="3.845" transform="translate(-73.014 771.704)" fill="none" stroke="#892c03" stroke-width="1"/>
+    </g>
+    <g id="椭圆_90" data-name="椭圆 90" transform="translate(1372 1159)" fill="none" stroke="#892c03" stroke-width="1">
+      <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+      <circle cx="4.5" cy="4.5" r="4" fill="none"/>
+    </g>
+    <g id="多边形_20" data-name="多边形 20" transform="translate(1419 1159.5) rotate(90)" fill="none">
+      <path d="M4,0,8,7H0Z" stroke="none"/>
+      <path d="M 4 2.015560150146484 L 1.723176956176758 6 L 6.276823043823242 6 L 4 2.015560150146484 M 4 0 L 8 7 L 0 7 L 4 0 Z" stroke="none" fill="#892c03"/>
+    </g>
+  </g>
+</svg>

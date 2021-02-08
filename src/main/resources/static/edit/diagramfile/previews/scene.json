@@ -1,0 +1,89 @@
+{
+  "v": "7.0.7",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true,
+    "postProcessingData": {}
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 4820,
+      "p": {
+        "image": "symbols/3d/面板.json",
+        "position": {
+          "x": 819.9755,
+          "y": 221.52406
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/3d/面板.json",
+        "shape3d.autorotate": true,
+        "shape3d.fixSizeOnScreen": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 4848,
+      "p": {
+        "image": "symbols/告警图例/烟感-告警.json",
+        "position": {
+          "x": 303,
+          "y": 394
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/告警图例/烟感-告警.json",
+        "shape3d.autorotate": true,
+        "shape3d.fixSizeOnScreen": [
+          -1,
+          -1
+        ]
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 8681,
+      "p": {
+        "position": {
+          "x": 416,
+          "y": 259
+        }
+      },
+      "s": {
+        "shape3d": "models/机房/机柜相关/配电箱.json"
+      }
+    }
+  ],
+  "scene": {
+    "eye": [
+      -268.31661,
+      347.10687,
+      738.42936
+    ],
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "near": 10,
+    "far": 10000,
+    "gridVisible": true,
+    "gridSize": 50,
+    "gridGap": 50,
+    "gridColor": [
+      0.4,
+      0.75,
+      0.85,
+      1
+    ],
+    "editHelperDisabled": false
+  }
+}

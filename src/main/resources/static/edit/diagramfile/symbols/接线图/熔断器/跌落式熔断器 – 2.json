@@ -1,0 +1,254 @@
+{
+  "modified": "Thu Oct 24 2019 14:08:29 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "name": "颜色"
+    },
+    {
+      "attr": "switchState",
+      "valueType": "Number",
+      "name": "遥信状态"
+    }
+  ],
+  "width": 22,
+  "height": 50,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 0.96678,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        22,
+        12.91528,
+        14.26578,
+        12.91528
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.96678,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": 0,
+      "pixelPerfect": true,
+      "anchorX": 2.75,
+      "anchorY": 0.31463,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * 0\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 45\r\n}\n}",
+        "value": 0
+      },
+      "points": [
+        8.15058,
+        25.45625,
+        8.15058,
+        25.45625,
+        7.71391,
+        26.02866,
+        6.71613,
+        27.33657,
+        5.71836,
+        28.64449,
+        4.15949,
+        30.68791,
+        4.15949,
+        30.68791
+      ],
+      "segments": [
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.96678,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        18.13289,
+        0.83055,
+        18.13289,
+        12.43189
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.96678,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * 0\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 45\r\n}\n}",
+      "pixelPerfect": true,
+      "anchorX": 1,
+      "anchorY": 1,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * 0\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 45\r\n}\n}",
+        "value": 0
+      },
+      "points": [
+        1.83688,
+        15.60679,
+        10.28345,
+        22.67796,
+        15.41262,
+        26.97192
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.96678,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        18.13289,
+        32.73422,
+        18.13289,
+        49.16945
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.96678,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        20.54983,
+        29.83389,
+        20.54983,
+        28.50799,
+        19.45878,
+        27.41694,
+        18.13289,
+        27.41694,
+        16.80699,
+        27.41694,
+        15.71594,
+        28.50799,
+        15.71594,
+        29.83389,
+        15.71594,
+        31.15979,
+        16.80699,
+        32.25083,
+        18.13289,
+        32.25083,
+        19.45878,
+        32.25083,
+        20.54983,
+        31.15979,
+        20.54983,
+        29.83389
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.96688,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "attr@lineColor",
+      "pixelPerfect": true,
+      "anchorX": 0.80647,
+      "anchorY": 0.78731,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * 0\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 45\r\n}\n}",
+        "value": 0
+      },
+      "points": [
+        8.41145,
+        15.94757,
+        18.03863,
+        24.02887,
+        18.03863,
+        24.02887,
+        18.03863,
+        24.02887,
+        13.06552,
+        29.95329,
+        13.06552,
+        29.95329,
+        13.06552,
+        29.95329,
+        3.43835,
+        21.87199,
+        3.43835,
+        21.87199,
+        3.43835,
+        21.87199,
+        8.41145,
+        15.94757,
+        8.41145,
+        15.94757,
+        8.41145,
+        15.94757
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "attr@lineColor",
+      "pixelPerfect": true,
+      "anchorX": 2.35221,
+      "anchorY": 0.02707,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * 0\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 45\r\n}\n}",
+        "value": 0
+      },
+      "points": [
+        1.43732,
+        33.2541,
+        4.52871,
+        26.9311,
+        7.40254,
+        29.51871
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        5
+      ]
+    }
+  ]
+}

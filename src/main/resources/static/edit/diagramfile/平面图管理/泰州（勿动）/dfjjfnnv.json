@@ -1,0 +1,41 @@
+{
+  "v": "7.0.2",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null,
+    "spaceUuid": "4575495517799424",
+    "uuid": "4588370775327744",
+    "diagramType": 0
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 439,
+      "p": {
+        "position": {
+          "x": 10.23015,
+          "y": 27.30725
+        },
+        "width": 37.85961,
+        "height": 34.63751
+      },
+      "s": {
+        "shape": "rect",
+        "shape.background": "#D8D8D8",
+        "shape.border.width": 1,
+        "shape.border.color": "#979797"
+      }
+    }
+  ],
+  "modified": "Thu Sep 19 2019 18:39:32 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": -10.19965,
+    "y": 8.48849,
+    "width": 40.85961,
+    "height": 37.63751
+  }
+}

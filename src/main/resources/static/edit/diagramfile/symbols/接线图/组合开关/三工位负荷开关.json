@@ -1,0 +1,196 @@
+{
+  "modified": "Thu Oct 24 2019 14:09:14 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "earthColor",
+      "valueType": "Color",
+      "name": "颜色"
+    },
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "name": "接地颜色"
+    },
+    {
+      "attr": "switchState",
+      "valueType": "Number",
+      "name": "遥信状态"
+    }
+  ],
+  "width": 32,
+  "height": 50,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 0.99685,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "attr@earthColor",
+      "pixelPerfect": true,
+      "points": [
+        2.54883,
+        19.43857,
+        2.54883,
+        29.40707
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99685,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "attr@lineColor",
+      "pixelPerfect": true,
+      "points": [
+        18.49842,
+        19.43857,
+        18.49842,
+        29.40707
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99685,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        16.49842,
+        24.42282,
+        6.52993,
+        24.42282
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99685,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        5.53938,
+        18.44172,
+        5.53938,
+        30.40392
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99685,
+      "borderColor": "#0393d6",
+      "pixelPerfect": true,
+      "points": [
+        8.52993,
+        17.44487,
+        8.52993,
+        31.40077
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99685,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        28.95905,
+        0,
+        28.95905,
+        18.94015
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99685,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        31.45117,
+        21.9307,
+        31.45117,
+        20.56356,
+        30.32619,
+        19.43857,
+        28.95905,
+        19.43857,
+        27.59191,
+        19.43857,
+        26.46692,
+        20.56356,
+        26.46692,
+        21.9307,
+        26.46692,
+        23.29784,
+        27.59191,
+        24.42282,
+        28.95905,
+        24.42282,
+        30.32619,
+        24.42282,
+        31.45117,
+        23.29784,
+        31.45117,
+        21.9307
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99685,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        28.5005,
+        49.4308,
+        28.5005,
+        31.07779
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99685,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": true,
+      "pixelPerfect": true,
+      "anchorX": 1,
+      "anchorY": 1,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * (-10)\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 2\r\n} else if (data.getAttr('switchState') === 2) {\r\nreturn Math.PI / 180 * (-18)\r\n}\n}",
+        "value": -0.17453
+      },
+      "points": [
+        28.46062,
+        31.40077,
+        26.13362,
+        24.8516,
+        23.28276,
+        16.82809
+      ]
+    }
+  ]
+}

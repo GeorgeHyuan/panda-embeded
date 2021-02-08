@@ -1,0 +1,637 @@
+{
+  "modified": "Thu Sep 26 2019 10:35:47 GMT+0800 (中国标准时间)",
+  "width": 2000,
+  "height": 250,
+  "comps": [
+    {
+      "type": "border",
+      "color": "#979797",
+      "width": 1,
+      "rect": [
+        1,
+        0,
+        2000,
+        250
+      ]
+    },
+    {
+      "type": "text",
+      "text": "图",
+      "color": "rgb(61,61,61)",
+      "font": "bold 30px sans-serif, Arial",
+      "rect": [
+        16.96811,
+        74.71799,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/空调-告警.json",
+      "displayName": "空调-告警",
+      "rect": [
+        73.96811,
+        163.2798,
+        100,
+        100
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/空调-正常.json",
+      "displayName": "空调-正常",
+      "rect": [
+        71.38803,
+        83.71799,
+        110,
+        100
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/空调-故障.json",
+      "displayName": "空调-故障",
+      "rect": [
+        68.96811,
+        -4.94426,
+        110,
+        100
+      ]
+    },
+    {
+      "type": "text",
+      "text": "例",
+      "font": "bold 30px sans-serif, Arial",
+      "rect": [
+        16.96811,
+        124.71799,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "空调故障",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "rect": [
+        209.72062,
+        16.75319,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "空调开启",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "rect": [
+        209.72062,
+        95.05574,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "空调关闭",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.4,
+      "anchorY": 0.43637,
+      "rect": [
+        209.72062,
+        183.71799,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/灯-故障.json",
+      "displayName": "灯-故障",
+      "rect": [
+        333.36558,
+        11.75319,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/灯-告警.json",
+      "displayName": "灯-告警",
+      "rect": [
+        333.36558,
+        183.2798,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/灯-正常.json",
+      "displayName": "灯-正常",
+      "rect": [
+        333.36558,
+        95,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "text",
+      "text": "灯故障",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "rect": [
+        410.02813,
+        16.75319,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "灯开",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.46658,
+      "anchorY": 0.36024,
+      "rect": [
+        410.02813,
+        108.71799,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "灯关",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.46658,
+      "anchorY": 0.36024,
+      "rect": [
+        410.02813,
+        185,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/水位-故障.json",
+      "displayName": "水位-故障",
+      "rect": [
+        499.60303,
+        6.75319,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/水位-正常.json",
+      "displayName": "水位-正常",
+      "anchorX": 0.4605,
+      "anchorY": 0.4605,
+      "rect": [
+        501.97281,
+        178.71799,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/水位-告警.json",
+      "displayName": "水位-告警",
+      "rect": [
+        501.97281,
+        94.71799,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "text",
+      "text": "水位故障",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.42526,
+      "anchorY": 0.34696,
+      "rect": [
+        585.35776,
+        16.75319,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "水位告警",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.42526,
+      "anchorY": 0.34696,
+      "rect": [
+        585.35776,
+        108.71799,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "水位正常",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.42526,
+      "anchorY": 0.34696,
+      "rect": [
+        585.35776,
+        185,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/水浸.json",
+      "displayName": "水浸",
+      "rect": [
+        696.70597,
+        6.75319,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/水浸-正常.json",
+      "displayName": "水浸-正常",
+      "rect": [
+        698.70597,
+        178.71799,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/水浸-告警.json",
+      "displayName": "水浸-告警",
+      "rect": [
+        698.70597,
+        91.75319,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "text",
+      "text": "水浸故障",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.42526,
+      "anchorY": 0.34696,
+      "rect": [
+        791.83047,
+        11.75319,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "水浸正常",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.42526,
+      "anchorY": 0.34696,
+      "rect": [
+        791.83047,
+        183.71799,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "水浸告警",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.42526,
+      "anchorY": 0.34696,
+      "rect": [
+        791.83047,
+        96.75319,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/烟感-故障.json",
+      "displayName": "烟感-故障",
+      "rect": [
+        898.9102,
+        6.75319,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/烟感-正常.json",
+      "displayName": "烟感-正常",
+      "rect": [
+        898.9102,
+        173.71799,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/烟感-告警.json",
+      "displayName": "烟感-告警",
+      "rect": [
+        898.9102,
+        85.05574,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "text",
+      "text": "烟感故障",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.42526,
+      "anchorY": 0.34696,
+      "rect": [
+        987,
+        16.75319,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "烟感告警",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.42526,
+      "anchorY": 0.34696,
+      "rect": [
+        987,
+        100,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "烟感正常",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.42526,
+      "anchorY": 0.34696,
+      "rect": [
+        987,
+        185,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/温湿度-正常.json",
+      "displayName": "温湿度-正常",
+      "rect": [
+        1094.86202,
+        173.71799,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/温湿度-故障.json",
+      "displayName": "温湿度-故障",
+      "rect": [
+        1094.86202,
+        6.75319,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/温湿度-告警.json",
+      "displayName": "温湿度-告警",
+      "rect": [
+        1094.86202,
+        94.71799,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "text",
+      "text": "温湿度故障",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.42526,
+      "anchorY": 0.34696,
+      "rect": [
+        1186.08797,
+        20.05574,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "温湿度告警",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.42526,
+      "anchorY": 0.34696,
+      "rect": [
+        1186.08797,
+        96.75319,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "温湿度正常",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.42526,
+      "anchorY": 0.34696,
+      "rect": [
+        1186.08797,
+        178.71799,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/枪机-正常.json",
+      "displayName": "枪机-正常",
+      "rect": [
+        1325.18869,
+        94.71799,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/枪机-故障.json",
+      "displayName": "枪机-故障",
+      "rect": [
+        1325.18869,
+        14.71799,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "text",
+      "text": "枪机故障",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.42526,
+      "anchorY": 0.34696,
+      "rect": [
+        1419.52612,
+        19.71799,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "枪机正常",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.42526,
+      "anchorY": 0.34696,
+      "rect": [
+        1419.52612,
+        101.75319,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/球机-正常.json",
+      "displayName": "球机-正常",
+      "rect": [
+        1537.37588,
+        94.71799,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/球机-故障.json",
+      "displayName": "球机-故障",
+      "rect": [
+        1537.37588,
+        11.75319,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "text",
+      "text": "球机故障",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.42526,
+      "anchorY": 0.34696,
+      "rect": [
+        1635.15951,
+        25,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "球机正常",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.42526,
+      "anchorY": 0.34696,
+      "rect": [
+        1635.15951,
+        104.71799,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/门-开.json",
+      "displayName": "门-开",
+      "rect": [
+        1767.8827,
+        103.2798,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/告警图例/门-关.json",
+      "displayName": "门-关",
+      "rect": [
+        1767.8827,
+        20.05574,
+        60,
+        60
+      ]
+    },
+    {
+      "type": "text",
+      "text": "门关",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.42526,
+      "anchorY": 0.34696,
+      "rect": [
+        1855.76514,
+        25.05574,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": "门开",
+      "align": "center",
+      "font": "25px sans-serif, Arial",
+      "anchorX": 0.42526,
+      "anchorY": 0.34696,
+      "rect": [
+        1855.76514,
+        100,
+        50,
+        50
+      ]
+    }
+  ]
+}

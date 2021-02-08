@@ -1,0 +1,71 @@
+<!--
+ * @description: human
+ * @version: 0.0.1
+ * @Author: dai_zheng
+ * @Date: 2019-09-10 16:23:13
+ * @LastEditors: dai_zheng
+ * @LastEditTime: 2019-09-12 11:01:15
+ -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Preview Symbol</title>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="/images/favicon.ico?v=2" />
+    <style>
+      html,
+      body {
+        padding: 0px;
+        margin: 0px;
+      }
+    </style>
+
+    <script src="/configs/htconfig.js"></script>
+
+    <script src="/libs/ht.js"></script>
+    <script src="/libs/ht-vector.js"></script>
+
+    <script>
+      function init() {
+        dataModel = new ht.DataModel()
+        graphView = new ht.graph.GraphView(dataModel)
+        graphView.addToDOM()
+        graphView.setEditable(true)
+
+        ht.Default.xhrLoad('displays/html/testtttttt.json', function(text) {
+          var json = ht.Default.parse(text)
+          if (json.title) document.title = json.title
+          dataModel.deserialize(json)
+          dataModel.setBackground(json.background)
+          let temperatures = {
+            switch1: true
+          }
+          setInterval(() => {
+            temperatures.switch1 = !temperatures.switch1
+            dataModel.each(data => {
+              let dataBindings = data.getDataBindings()
+              if (dataBindings) {
+                for (let name in dataBindings.a) {
+                  let db = dataBindings.a[name]
+                  let value = temperatures[db.id]
+                  if (db.func) {
+                    value = db.func(value)
+                  }
+                  console.log(value)
+                  window.aaa = data
+                  data.a(name, value)
+                }
+              }
+            })
+          }, 3000)
+
+          //  node = new ht.Node();
+          //  node.setImage(json);
+          //  node.setPosition(graphView.getWidth()/2, graphView.getHeight()/2);
+          //  dataModel.add(node);
+        })
+      }
+    </script>
+  </head>
+  <body onload="setTimeout(init, 300)"></body>
+</html>

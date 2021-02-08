@@ -1,0 +1,25 @@
+{
+  "modified": "Fri Dec 13 2019 14:10:44 GMT+0800 (中国标准时间)",
+  "width": 2,
+  "height": 100,
+  "comps": [
+    {
+      "type": "shape",
+      "dash": true,
+      "dashPattern": [
+        6,
+        6
+      ],
+      "dashOffset": 1,
+      "dashColor": "#000000",
+      "dashWidth": 2,
+      "pixelPerfect": true,
+      "points": [
+        1,
+        0,
+        1,
+        100
+      ]
+    }
+  ]
+}

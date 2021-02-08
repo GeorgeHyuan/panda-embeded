@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13.374" height="50.159" viewBox="0 0 13.374 50.159">
+  <g id="组_48" data-name="组 48" transform="translate(-16.126)">
+    <line id="直线_1" data-name="直线 1" y2="16.5" transform="translate(24.5)" fill="none" stroke="#0393d6" stroke-width="1"/>
+    <line id="直线_3" data-name="直线 3" x1="10" transform="translate(19.5 16.5)" fill="none" stroke="#0393d6" stroke-width="1"/>
+    <g id="椭圆_3" data-name="椭圆 3" transform="translate(21.5 17)" fill="none" stroke="#0393d6" stroke-width="1">
+      <circle cx="3" cy="3" r="3" stroke="none"/>
+      <circle cx="3" cy="3" r="2.5" fill="none"/>
+    </g>
+    <path id="路径_43" data-name="路径 43" d="M-.057,26.1v.681L-.117,4.127" transform="translate(24.557 23.382)" fill="none" stroke="#0393d6" stroke-width="1"/>
+    <line id="直线_90" data-name="直线 90" x1="8" y1="9" transform="translate(16.5 18.5)" fill="none" stroke="#0393d6" stroke-width="1"/>
+  </g>
+</svg>

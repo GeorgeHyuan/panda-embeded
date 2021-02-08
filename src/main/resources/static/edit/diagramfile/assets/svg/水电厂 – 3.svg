@@ -1,0 +1,11 @@
+<svg id="组_24" data-name="组 24" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="矩形_15" data-name="矩形 15" fill="none" stroke="#0393d6" stroke-width="1">
+    <rect width="50" height="50" stroke="none"/>
+    <rect x="0.5" y="0.5" width="49" height="49" fill="none"/>
+  </g>
+  <line id="直线_60" data-name="直线 60" x2="49" transform="translate(0.5 25.5)" fill="none" stroke="#0393d6" stroke-width="1"/>
+  <path id="路径_28" data-name="路径 28" d="M16.082,10.023,0,0" transform="translate(20.686 17.776) rotate(-163)" fill="none" stroke="#0393d6" stroke-width="1"/>
+  <path id="路径_29" data-name="路径 29" d="M16.082,10.023,0,0" transform="translate(36.686 17.776) rotate(-163)" fill="none" stroke="#0393d6" stroke-width="1"/>
+  <path id="多边形_2" data-name="多边形 2" d="M2,0,4,7H0Z" transform="translate(24.757 19.2) rotate(138)" fill="#0393d6"/>
+  <path id="多边形_3" data-name="多边形 3" d="M2,0,4,7H0Z" transform="translate(40.757 19.2) rotate(138)" fill="#0393d6"/>
+</svg>

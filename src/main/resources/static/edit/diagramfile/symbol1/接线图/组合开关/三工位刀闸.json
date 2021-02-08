@@ -1,0 +1,168 @@
+{
+  "modified": "Thu Oct 24 2019 14:08:53 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "earthColor",
+      "valueType": "Color",
+      "name": "接地颜色"
+    },
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "name": "颜色"
+    },
+    {
+      "attr": "switchState",
+      "valueType": "Number",
+      "name": "遥信状态"
+    }
+  ],
+  "width": 30,
+  "height": 50,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 0.98305,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "attr@earthColor",
+      "pixelPerfect": true,
+      "points": [
+        0.49153,
+        19.51556,
+        0.49153,
+        29.34607
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.98305,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        16.22034,
+        19.51556,
+        16.22034,
+        29.34607
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.98305,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        16.22034,
+        24.43081,
+        6.38983,
+        24.43081
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.98305,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        3.44068,
+        18.53251,
+        3.44068,
+        30.32912
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.98305,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        6.38983,
+        17.54946,
+        6.38983,
+        31.31217
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.98305,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        28.50847,
+        0.34607,
+        28.50847,
+        19.02403
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.98305,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": -0.03491,
+      "pixelPerfect": true,
+      "anchorX": 0.97921,
+      "anchorY": 0.96653,
+      "rotation": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('switchState') === 0) {\r\n    return Math.PI / 180 * 15\r\n} else if (data.getAttr('switchState') === 1) {\r\n    return Math.PI / 180 * 42\r\n} else if (data.getAttr('switchState') === 2) {\r\nreturn Math.PI / 180 * 0\r\n}\n}",
+        "value": 0.2618
+      },
+      "points": [
+        28.32563,
+        30.93959,
+        28.32563,
+        30.93959,
+        25.96476,
+        28.47633,
+        23.14292,
+        25.53209,
+        20.32107,
+        22.58785,
+        17.03824,
+        19.16264,
+        17.03824,
+        19.16264
+      ],
+      "segments": [
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.98305,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "attr@lineColor",
+      "pixelPerfect": true,
+      "points": [
+        28.1182,
+        49.07983,
+        28.1182,
+        30.55129
+      ]
+    }
+  ]
+}

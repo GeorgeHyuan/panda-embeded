@@ -1,0 +1,123 @@
+{
+  "modified": "Thu Oct 24 2019 14:05:16 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "alarmState",
+      "valueType": "Number",
+      "name": "遥信状态",
+      "defaultValue": 1
+    }
+  ],
+  "width": 130,
+  "height": 100,
+  "comps": [
+    {
+      "type": "shape",
+      "background": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('alarmState') === 1) {\r\n    return '#32BFD0'\r\n  } else if (data.getAttr('alarmState') === 0) {\r\n    return '#D04848'\r\n  } else if (data.getAttr('alarmState') === 2) {\r\n    return '#A5A5A5'\r\n  }\n}",
+        "value": "#32bfd0"
+      },
+      "dashColor": "__ht__function(data, view) {\nif (data.getAttr('alarmState') === 1) {\r\n    return '#32BFD0'\r\n  } else if (data.getAttr('alarmState') === 0) {\r\n    return '#D04848'\r\n  } else if (data.getAttr('alarmState') === 2) {\r\n    return '#A5A5A5'\r\n  }\n}",
+      "pixelPerfect": true,
+      "points": [
+        4,
+        22.99436,
+        88.53681,
+        22.99436,
+        93.17436,
+        22.99436,
+        96.99049,
+        25.7165,
+        96.99049,
+        29.02458,
+        96.99049,
+        32.33266,
+        93.17436,
+        35.0548,
+        88.53681,
+        35.0548,
+        83.89926,
+        35.0548,
+        80.08313,
+        32.33266,
+        80.08313,
+        29.02458,
+        80.08313,
+        25.7165,
+        83.89926,
+        22.99436,
+        88.53681,
+        22.99436,
+        93.17436,
+        22.99436,
+        96.99049,
+        25.7165,
+        96.99049,
+        29.02458,
+        96.99049,
+        62.1908,
+        96.99049,
+        65.49888,
+        93.17436,
+        68.22102,
+        88.53681,
+        68.22102,
+        4,
+        68.22102,
+        4,
+        22.99436
+      ],
+      "segments": [
+        1,
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        2,
+        4,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('alarmState') === 1) {\r\n    return '#32BFD0'\r\n  } else if (data.getAttr('alarmState') === 0) {\r\n    return '#D04848'\r\n  } else if (data.getAttr('alarmState') === 2) {\r\n    return '#A5A5A5'\r\n  }\n}",
+        "value": "#32bfd0"
+      },
+      "pixelPerfect": true,
+      "points": [
+        115.54632,
+        33.81861,
+        115.54632,
+        60.32143,
+        85.49348,
+        47.11525,
+        115.54632,
+        33.84876,
+        124,
+        23.02451,
+        69.38922,
+        47.11525,
+        124,
+        71.23614,
+        124,
+        22.99436
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        5
+      ]
+    }
+  ]
+}

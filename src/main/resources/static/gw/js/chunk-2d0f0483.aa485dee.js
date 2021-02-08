@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0f0483"],{"9c69":function(n,t,e){"use strict";e.r(t);var c=function(){var n=this,t=n.$createElement,e=n._self._c||t;return e("div",[n._v("统计分析")])},u=[],o={components:{},data:function(){return{}}},r=o,a=e("2877"),s=Object(a["a"])(r,c,u,!1,null,"4d482b78",null);t["default"]=s.exports}}]);

@@ -1,0 +1,165 @@
+{
+  "modified": "Thu Oct 24 2019 14:07:16 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "alarmState",
+      "valueType": "Number",
+      "defaultValue": 1,
+      "name": "遥信状态"
+    },
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "defaultValue": "rgb(0,79,196)",
+      "name": "颜色"
+    }
+  ],
+  "width": 512,
+  "height": 512,
+  "comps": [
+    {
+      "type": "shape",
+      "background": {
+        "func": "attr@lineColor",
+        "value": "#0050c4"
+      },
+      "dashColor": "attr@lineColor",
+      "pixelPerfect": true,
+      "points": [
+        49.54537,
+        468.29268,
+        462.45463,
+        468.29268,
+        462.45463,
+        468.29268,
+        462.45463,
+        468.29268,
+        462.45463,
+        512,
+        462.45463,
+        512,
+        462.45463,
+        512,
+        49.54537,
+        512,
+        49.54537,
+        512,
+        49.54537,
+        512,
+        49.54537,
+        468.29268,
+        49.54537,
+        468.29268,
+        49.54537,
+        468.29268
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": {
+        "func": "attr@lineColor",
+        "value": "#0050c4"
+      },
+      "pixelPerfect": true,
+      "points": [
+        49.54537,
+        0,
+        462.45463,
+        0,
+        462.45463,
+        0,
+        462.45463,
+        0,
+        462.45463,
+        43.70732,
+        462.45463,
+        43.70732,
+        462.45463,
+        43.70732,
+        49.54537,
+        43.70732,
+        49.54537,
+        43.70732,
+        49.54537,
+        43.70732,
+        49.54537,
+        0,
+        49.54537,
+        0,
+        49.54537,
+        0
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 24.97561,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nvar color = data.getAttr('lineColor')\r\nif (data.getAttr('alarmState') === 0) {\r\n    return 'rgba(0,0,0,0)'\r\n} else if (data.getAttr('alarmState') === 1) {\r\nreturn color\r\n}\n}",
+        "value": "#0050c4"
+      },
+      "dashColor": "__ht__function(data, view) {\nvar color = data.getAttr('lineColor')\r\nif (data.getAttr('alarmState') === 0) {\r\n    return 'rgba(0,0,0,0)'\r\n} else if (data.getAttr('alarmState') === 1) {\r\nreturn color\r\n}\n}",
+      "pixelPerfect": true,
+      "points": [
+        449.15512,
+        473.84976,
+        449.15512,
+        473.84976,
+        468.51122,
+        244.88585,
+        197.02634,
+        251.62927
+      ],
+      "segments": [
+        1,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 24.97561,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nvar color = data.getAttr('lineColor')\r\nif (data.getAttr('alarmState') === 0) {\r\n    return 'rgba(0,0,0,0)'\r\n} else if (data.getAttr('alarmState') === 1) {\r\nreturn color\r\n}\n}",
+        "value": "#0050c4"
+      },
+      "pixelPerfect": true,
+      "points": [
+        449.15512,
+        24.28878,
+        449.15512,
+        24.28878,
+        468.57366,
+        238.51707,
+        197.08878,
+        231.77366
+      ],
+      "segments": [
+        1,
+        4
+      ]
+    }
+  ]
+}

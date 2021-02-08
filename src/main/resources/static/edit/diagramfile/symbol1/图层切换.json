@@ -1,0 +1,44 @@
+{
+  "modified": "Wed Oct 23 2019 17:51:40 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "textContent",
+      "valueType": "String",
+      "defaultValue": "图层切换",
+      "name": "图层切换"
+    }
+  ],
+  "onClick": "__ht__function(event, data, view, point, width, height) {\nvar layerArr = view.getLayers()\r\nvar newArr = []\r\nfor (var i = 0; i < layerArr.length; i++) {\r\n    if (data.getAttr('textContent') === layerArr[i].name && layerArr[i].name !== '0') {\r\n       var item = layerArr[i]\r\n       item.visible = true\r\n       newArr.push(item)\r\n    }else if(layerArr[i].name === '0'){\r\n        let showLayers = layerArr[i]\r\n         showLayers.visible = true\r\n         newArr.push(showLayers)\r\n    } else {\r\n        var otherItem = layerArr[i]\r\n        otherItem.visible = false\r\n        newArr.push(otherItem)\r\n    }\r\n}\r\nview.setLayers(newArr)\n}",
+  "width": 60,
+  "height": 30,
+  "fitSize": true,
+  "interactive": true,
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": "rgb(41,18,219)",
+      "borderWidth": 1,
+      "borderColor": "rgb(48,186,184)",
+      "dashColor": "rgb(48,186,184)",
+      "rect": [
+        1.44994,
+        1.77215,
+        56.70886,
+        26.58228
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@textContent",
+        "value": "图层切换"
+      },
+      "rect": [
+        4.02762,
+        7.73303,
+        50.74799,
+        14.66053
+      ]
+    }
+  ]
+}

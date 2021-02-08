@@ -1,0 +1,89 @@
+{
+  "modified": "Sat Oct 12 2019 10:45:05 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "lineColor",
+      "valueType": "Color",
+      "name": "颜色"
+    },
+    {
+      "attr": "textColor",
+      "valueType": "String",
+      "name": "字体颜色"
+    }
+  ],
+  "width": 50,
+  "height": 50,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@lineColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "attr@lineColor",
+      "pixelPerfect": true,
+      "points": [
+        0.5,
+        0.5,
+        49.5,
+        0.5,
+        49.5,
+        0.5,
+        49.5,
+        0.5,
+        49.5,
+        49.5,
+        49.5,
+        49.5,
+        49.5,
+        49.5,
+        0.5,
+        49.5,
+        0.5,
+        49.5,
+        0.5,
+        49.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@textColor",
+        "value": "CCHP"
+      },
+      "vAlign": "bottom",
+      "color": {
+        "func": "attr@textColor",
+        "value": "#707070"
+      },
+      "font": "14px STHeitiSC-Medium, \"Heiti SC\"",
+      "pixelPerfect": true,
+      "rect": [
+        5,
+        33.98584,
+        0.01,
+        0.01
+      ]
+    }
+  ]
+}

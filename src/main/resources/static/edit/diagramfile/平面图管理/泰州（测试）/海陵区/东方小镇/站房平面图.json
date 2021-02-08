@@ -1,0 +1,47 @@
+{
+  "v": "7.0.2",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": null,
+    "spaceUuid": "4593658947208192",
+    "uuid": "4593823883314176",
+    "diagramType": 0
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 657,
+      "p": {
+        "displayName": "立式空调",
+        "image": "symbols/环境设备/立式空调.json",
+        "position": {
+          "x": 82.80639,
+          "y": 45.50622
+        }
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 911,
+      "p": {
+        "displayName": "立式空调",
+        "image": "symbols/环境设备/立式空调.json",
+        "position": {
+          "x": 53.21492,
+          "y": 55.7016
+        }
+      }
+    }
+  ],
+  "modified": "Mon Sep 23 2019 15:44:56 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 35.21492,
+    "y": 33.50622,
+    "width": 65.59147,
+    "height": 34.19538
+  }
+}

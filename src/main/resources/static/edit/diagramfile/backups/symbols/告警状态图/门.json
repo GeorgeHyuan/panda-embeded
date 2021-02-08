@@ -1,0 +1,127 @@
+{
+  "modified": "Thu Oct 24 2019 14:05:39 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "alarmState",
+      "valueType": "Number",
+      "name": "遥信状态",
+      "defaultValue": 1
+    }
+  ],
+  "width": 150,
+  "height": 170,
+  "comps": [
+    {
+      "type": "shape",
+      "background": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('alarmState') === 1) {\r\n    return '#32BFD0'\r\n  } else if (data.getAttr('alarmState') === 0) {\r\n    return 'rgba(0,0,0,0)'\r\n  }\n}",
+        "value": "rgb(50,193,209)"
+      },
+      "dashColor": "__ht__function(data, view) {\nif (data.getAttr('alarmState') === 1) {\r\n    return '#32BFD0'\r\n  } else if (data.getAttr('alarmState') === 0) {\r\n    return 'rgba(0,0,0,0)'\r\n  }\n}",
+      "fillRule": "evenodd",
+      "pixelPerfect": true,
+      "points": [
+        89.30971,
+        166.97138,
+        11.54545,
+        137.88567,
+        11.54545,
+        7,
+        89.30971,
+        36.08571,
+        89.30971,
+        166.97138,
+        89.30971,
+        166.97138
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#32bfd0",
+      "pixelPerfect": true,
+      "points": [
+        131.72659,
+        14.27143,
+        131.72659,
+        130.61425,
+        18.61493,
+        130.61425,
+        18.61493,
+        14.27143,
+        131.72659,
+        14.27143,
+        138.79606,
+        7,
+        11.54545,
+        7,
+        11.54545,
+        137.88567,
+        138.79606,
+        137.88567,
+        138.79606,
+        7
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('alarmState') === 1) {\r\n    return 'rgba(0,0,0,0)'\r\n  } else if (data.getAttr('alarmState') === 0) {\r\n    return '32C1D1'\r\n  }\n}",
+        "value": "rgba(0,0,0,0)"
+      },
+      "borderWidth": 1,
+      "borderColor": "rgba(250,250,250,0)",
+      "dashColor": true,
+      "rect": [
+        16.02959,
+        11.69165,
+        118.28233,
+        123.44915
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 5,
+      "borderColor": {
+        "func": "__ht__function(data, view) {\nif (data.getAttr('alarmState') === 1) {\r\n    return 'rgba(0,0,0,0)'\r\n  } else if (data.getAttr('alarmState') === 0) {\r\n    return '#ffffff'\r\n  }\n}",
+        "value": "rgb(255,255,255)"
+      },
+      "dashColor": "__ht__function(data, view) {\nif (data.getAttr('alarmState') === 1) {\r\n    return 'rgba(0,0,0,0)'\r\n  } else if (data.getAttr('alarmState') === 0) {\r\n    return '#ffffff'\r\n  }\n}",
+      "displayName": "不规则图形",
+      "rotation": 3.14159,
+      "points": [
+        127.87912,
+        59.49348,
+        122.28338,
+        59.49348,
+        122.28336,
+        67.44549,
+        122.28338,
+        77.75546,
+        127.87912,
+        77.75546
+      ]
+    }
+  ]
+}

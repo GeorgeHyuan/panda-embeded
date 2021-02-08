@@ -1,0 +1,117 @@
+{
+  "modified": "Sat Oct 12 2019 09:55:58 GMT+0800 (中国标准时间)",
+  "width": 33,
+  "height": 50,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 0.99683,
+      "borderColor": "#0393d6",
+      "pixelPerfect": true,
+      "points": [
+        0.55072,
+        19.43819,
+        0.55072,
+        29.40649
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99683,
+      "borderColor": "#0393d6",
+      "pixelPerfect": true,
+      "points": [
+        16.5,
+        19.43819,
+        16.5,
+        29.40649
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99683,
+      "borderColor": "#0393d6",
+      "pixelPerfect": true,
+      "points": [
+        32.9477,
+        19.43819,
+        24.97306,
+        19.43819
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99683,
+      "borderColor": "#0393d6",
+      "pixelPerfect": true,
+      "points": [
+        16.5,
+        24.42234,
+        6.5317,
+        24.42234
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99683,
+      "borderColor": "#0393d6",
+      "pixelPerfect": true,
+      "points": [
+        3.54121,
+        18.44136,
+        3.54121,
+        30.40332
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99683,
+      "borderColor": "#0393d6",
+      "pixelPerfect": true,
+      "points": [
+        6.5317,
+        17.44453,
+        6.5317,
+        31.40015
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99683,
+      "borderColor": "#0393d6",
+      "pixelPerfect": true,
+      "points": [
+        28.96038,
+        0,
+        28.96038,
+        18.93977
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99683,
+      "borderColor": "#0393d6",
+      "pixelPerfect": true,
+      "points": [
+        28.46196,
+        31.02235,
+        20.67273,
+        17.60003
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99683,
+      "borderColor": "#0393d6",
+      "pixelPerfect": true,
+      "points": [
+        28.50183,
+        49.42981,
+        28.50183,
+        49.999,
+        28.46495,
+        30.72031
+      ]
+    }
+  ]
+}

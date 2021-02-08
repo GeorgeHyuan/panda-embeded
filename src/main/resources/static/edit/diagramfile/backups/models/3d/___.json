@@ -1,0 +1,62 @@
+{
+  "modelType": "gaolu",
+  "class": "GaoluDialog",
+  "params": [
+    {
+      "id": "head",
+      "label": "炉顶封罩",
+      "outsideRadius": "3300;8200",
+      "insideRadius": "3000;7200",
+      "height": "3000"
+    },
+    {
+      "id": "throat",
+      "label": "炉喉",
+      "outsideRadius": "8200",
+      "insideRadius": "7200",
+      "height": "2000"
+    },
+    {
+      "id": "body",
+      "label": "炉身",
+      "outsideRadius": "8200;12200",
+      "insideRadius": "7200;11200",
+      "height": "15000"
+    },
+    {
+      "id": "waist",
+      "label": "炉腰",
+      "outsideRadius": "12200",
+      "insideRadius": "11200",
+      "height": "1800"
+    },
+    {
+      "id": "belly",
+      "label": "炉腹",
+      "outsideRadius": "12200;10800",
+      "insideRadius": "11200;9800",
+      "height": "3300"
+    },
+    {
+      "id": "jar",
+      "label": "炉缸",
+      "outsideRadius": "10800;11800",
+      "insideRadius": "9800",
+      "height": "6600"
+    },
+    {
+      "id": "bottom",
+      "label": "炉底",
+      "outsideRadius": "11800",
+      "insideRadius": "9800",
+      "height": "3767"
+    },
+    {
+      "id": "base",
+      "label": "炉基",
+      "outsideRadius": "11800",
+      "insideRadius": "9800",
+      "height": "3127"
+    }
+  ]
+}

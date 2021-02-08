@@ -1,0 +1,27 @@
+{
+  "modified": "Mon Oct 21 2019 14:18:59 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "addGraph",
+      "valueType": "Number",
+      "name": "添加图形"
+    }
+  ],
+  "width": 100,
+  "height": 100,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(171,0,0,0.01)",
+      "borderWidth": 1,
+      "borderColor": "rgba(255,255,255,0.01)",
+      "dashColor": "rgba(255,255,255,0.00001)",
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="23" viewBox="0 0 35 23">
+  <g id="组_1521" data-name="组 1521" transform="translate(-693 -547)">
+    <g id="矩形_6947" data-name="矩形 6947" transform="translate(693 547)" fill="none" stroke="#006e6b" stroke-width="1">
+      <rect width="35" height="23" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="34" height="22" rx="1.5" fill="none"/>
+    </g>
+    <g id="椭圆_1171" data-name="椭圆 1171" transform="translate(724 566)" fill="#fff" stroke="#006e6b" stroke-width="1">
+      <circle cx="1" cy="1" r="1" stroke="none"/>
+      <circle cx="1" cy="1" r="0.5" fill="none"/>
+    </g>
+    <g id="椭圆_1173" data-name="椭圆 1173" transform="translate(695 566)" fill="#fff" stroke="#006e6b" stroke-width="1">
+      <circle cx="1" cy="1" r="1" stroke="none"/>
+      <circle cx="1" cy="1" r="0.5" fill="none"/>
+    </g>
+    <g id="椭圆_1174" data-name="椭圆 1174" transform="translate(695 549)" fill="#fff" stroke="#006e6b" stroke-width="1">
+      <circle cx="1" cy="1" r="1" stroke="none"/>
+      <circle cx="1" cy="1" r="0.5" fill="none"/>
+    </g>
+    <g id="矩形_6948" data-name="矩形 6948" transform="translate(699 550)" fill="none" stroke="#006e6b" stroke-width="1">
+      <rect width="23" height="13" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="22" height="12" rx="0.5" fill="none"/>
+    </g>
+    <path id="矩形_6949" data-name="矩形 6949" d="M1,0H22a1,1,0,0,1,1,1V5a0,0,0,0,1,0,0H0A0,0,0,0,1,0,5V1A1,1,0,0,1,1,0Z" transform="translate(699 564)" fill="#015553"/>
+    <circle id="椭圆_1175" data-name="椭圆 1175" cx="1" cy="1" r="1" transform="translate(718 566)" fill="#fff"/>
+    <circle id="椭圆_1176" data-name="椭圆 1176" cx="1" cy="1" r="1" transform="translate(714 566)" fill="#fff"/>
+    <circle id="椭圆_1177" data-name="椭圆 1177" cx="1" cy="1" r="1" transform="translate(710 566)" fill="#fff"/>
+    <rect id="矩形_6950" data-name="矩形 6950" width="1" height="1" transform="translate(702 565)" fill="#fff"/>
+    <rect id="矩形_6958" data-name="矩形 6958" width="1" height="1" transform="translate(700 565)" fill="#fff"/>
+    <rect id="矩形_6957" data-name="矩形 6957" width="1" height="1" transform="translate(701 567)" fill="#fff"/>
+    <rect id="矩形_6951" data-name="矩形 6951" width="1" height="1" transform="translate(704 565)" fill="#fff"/>
+    <rect id="矩形_6956" data-name="矩形 6956" width="1" height="1" transform="translate(703 567)" fill="#fff"/>
+    <rect id="矩形_6952" data-name="矩形 6952" width="1" height="1" transform="translate(706 565)" fill="#fff"/>
+    <rect id="矩形_6955" data-name="矩形 6955" width="1" height="1" transform="translate(705 567)" fill="#fff"/>
+    <rect id="矩形_6953" data-name="矩形 6953" width="1" height="1" transform="translate(708 565)" fill="#fff"/>
+    <rect id="矩形_6954" data-name="矩形 6954" width="1" height="1" transform="translate(707 567)" fill="#fff"/>
+    <rect id="矩形_6959" data-name="矩形 6959" width="11" height="6" transform="translate(701 552)" fill="#025351"/>
+    <rect id="矩形_6960" data-name="矩形 6960" width="7" height="6" transform="translate(713 552)" fill="#025351"/>
+    <rect id="矩形_6961" data-name="矩形 6961" width="19" height="2" transform="translate(701 559)" fill="#025351"/>
+    <g id="椭圆_1172" data-name="椭圆 1172" transform="translate(724 549)" fill="#fff" stroke="#006e6b" stroke-width="1">
+      <circle cx="1" cy="1" r="1" stroke="none"/>
+      <circle cx="1" cy="1" r="0.5" fill="none"/>
+    </g>
+  </g>
+</svg>

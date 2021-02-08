@@ -1,0 +1,291 @@
+{
+  "modified": "Mon Oct 14 2019 15:05:03 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "highPressureColor",
+      "valueType": "Color",
+      "name": "高压颜色"
+    },
+    {
+      "attr": "lowPressureColor",
+      "valueType": "Color",
+      "name": "低压颜色"
+    },
+    {
+      "attr": "earthColor",
+      "valueType": "Color",
+      "name": "接地颜色"
+    }
+  ],
+  "width": 40,
+  "height": 50,
+  "comps": [
+    {
+      "type": "shape",
+      "background": {
+        "func": "attr@highPressureColor",
+        "value": "#0393d6"
+      },
+      "dashColor": {
+        "x": 27.49938,
+        "y": 4.00105
+      },
+      "pixelPerfect": true,
+      "points": [
+        27.49938,
+        1.88796,
+        24.30378,
+        7.0009,
+        30.69497,
+        7.0009,
+        27.49938,
+        1.88796,
+        27.49938,
+        0.00125,
+        32.49913,
+        8.00085,
+        22.49963,
+        8.00085,
+        27.49938,
+        0.00125
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": {
+        "func": "attr@highPressureColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "attr@highPressureColor",
+      "pixelPerfect": true,
+      "points": [
+        27.49938,
+        14.88731,
+        24.30378,
+        20.00025,
+        30.69497,
+        20.00025,
+        27.49938,
+        14.88731,
+        27.49938,
+        13.0006,
+        32.49913,
+        21.0002,
+        22.49963,
+        21.0002,
+        27.49938,
+        13.0006
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99995,
+      "borderColor": {
+        "func": "attr@highPressureColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "attr@highPressureColor",
+      "pixelPerfect": true,
+      "points": [
+        39.49878,
+        21.50017,
+        39.49878,
+        14.9175,
+        34.08205,
+        9.50077,
+        27.49938,
+        9.50077,
+        20.9167,
+        9.50077,
+        15.49998,
+        14.9175,
+        15.49998,
+        21.50017,
+        15.49998,
+        28.08285,
+        20.9167,
+        33.49958,
+        27.49938,
+        33.49958,
+        34.08205,
+        33.49958,
+        39.49878,
+        28.08285,
+        39.49878,
+        21.50017
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99995,
+      "borderColor": {
+        "func": "attr@lowPressureColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "attr@lowPressureColor",
+      "pixelPerfect": true,
+      "points": [
+        39.49878,
+        37.49938,
+        39.49878,
+        30.9167,
+        34.08205,
+        25.49998,
+        27.49938,
+        25.49998,
+        20.9167,
+        25.49998,
+        15.49998,
+        30.9167,
+        15.49998,
+        37.49938,
+        15.49998,
+        44.08205,
+        20.9167,
+        49.49878,
+        27.49938,
+        49.49878,
+        34.08205,
+        49.49878,
+        39.49878,
+        44.08205,
+        39.49878,
+        37.49938
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99995,
+      "borderColor": {
+        "func": "attr@highPressureColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        27.49938,
+        7.50087,
+        27.49938,
+        9.50077
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Y",
+      "vAlign": "bottom",
+      "color": {
+        "func": "attr@lowPressureColor",
+        "value": "#707070"
+      },
+      "font": "13.99930003499825px STHeitiSC-Medium, \"Heiti SC\"",
+      "pixelPerfect": true,
+      "rect": [
+        21.24189,
+        47.99888,
+        0.01,
+        0.01
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99995,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "dashColor": "attr@earthColor",
+      "pixelPerfect": true,
+      "points": [
+        2.00555,
+        49.49878,
+        11.0001,
+        49.49878
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99995,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        1.0056,
+        47.49888,
+        12.00005,
+        47.49888
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.99995,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "#0393d6"
+      },
+      "pixelPerfect": true,
+      "points": [
+        0.00565,
+        45.49898,
+        13,
+        45.49898
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": {
+        "func": "attr@earthColor",
+        "value": "rgb(2,147,214)"
+      },
+      "dashColor": {
+        "x": 14.82771,
+        "y": 41.72558
+      },
+      "points": [
+        23.06039,
+        38.12789,
+        6.59503,
+        38.12789,
+        6.59503,
+        45.32327
+      ]
+    }
+  ]
+}
